@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process name="orderCheck" xmlns="http://jbpm.org/4.4/jpdl">
+	<swimlane name="WF_orderCheck" candidate-users="WF_orderCheck" />
+	<swimlane name="WF_orderModify" candidate-users="WF_orderModify" />
+	<start g="279,44,48,48" name="start1">
+		<transition g="-63,-14" name="草稿-提交" to="需求单审核" />
+	</start>
+	<task form="/resOrder/resOrderWorkFlow/gotoCheck.action?objectId=${bizId}" g="256,150,92,52" name="需求单审核" swimlane="WF_orderCheck">
+		<transition g="349,133:67,-18" name="驳回" to="需求单修改" />
+		<transition g="-36,-9" name="通过" to="end1" />
+	</task>
+	<task form="/resOrder/resOrderWorkFlow/gotoEdit.action?objectId=${bizId}" g="524,105,92,52" name="需求单修改" swimlane="WF_orderModify">
+		<transition g="526,174:-98,-17" name="提交" to="需求单审核" />
+	</task>
+	<end g="280,254,48,48" name="end1"/>
+</process>

@@ -1,0 +1,504 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-CN">
+<head>
+    <title>iframe</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style-metronic.css">
+    <!--[if lt IE 9]>
+    <script src="js/libs/html5shiv.min.js"></script>
+    <script src="js/libs/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/iframe.js"></script>
+</head>
+<body>
+    <div id="fakeFrame" class="container-fluid by-frame-wrap">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <ol class="breadcrumb">
+                    <li><a href="#">待办任务</a></li>
+                    <li class="active">草稿</li>
+                </ol>
+            </div>
+            <div class="panel-body">
+            Panel Content
+            <br>
+            <button class="btn" onclick="$.alert('提示信息内容')">$.alert("提示信息内容")</button>
+            <br>
+            <br>
+            <button class="btn" onclick="$.confirm('确认信息内容', function(){alert('ok')}, function(){alert('cancel')})">$.confirm()</button>
+            <br>
+            <br>
+            <button class="btn" onclick="$.openWindow('test.html')">$.openWindow("test.html")</button>
+            <br>
+            <br>
+            <p class="bg-info">$.openWindow()第二个参数为字符串。示例：</p>
+            <button class="btn" onclick="$.openWindow('test.html', '对象传参')">$.openWindow('test.html', '对象传参')</button>
+            <br>
+            <br>
+            <p class="bg-info">$.openWindow()第二个参数为对象，第二个参数之后的参数将被忽略，通过对象传参，可以使用artDialog中定义的参数。示例：</p>
+            <button class="btn" onclick="$.openWindow('test.html', {title:'对象传参', button:[{name:'自定义按钮',callback:function(){alert('自定义按钮')}}]})">$.openWindow("test.html", {title:'对象传参', button:[{name:'自定义按钮',callback:function(){alert('自定义按钮')}}]})</button>
+            <br>
+            <br>
+            <p class="bg-info">$.openWindow()自定义窗口最大化按钮第二个参数必须为对象，参数为winButton:['max','min']，参数值只能是max或者min。示例：</p>
+            <button class="btn" onclick="$.openWindow('test.html', {title:'对象传参', winButton:['max','min'], lock: false})">$.openWindow('test.html', {title:'对象传参', winButton:['max','min'], lock: false})</button>
+            <br>
+            <br>
+            <p class="bg-info">$.simpleDialog()第一个参数为对象。示例：</p>
+            <button class="btn" onclick="$.simpleDialog({title:'对象传参', content:'哈喽！', button:[{name:'自定义按钮1',callback:function(){alert('自定义按钮1')}},{name:'自定义按钮2',callback:function(){alert('自定义按钮2')}}]})">$.simpleDialog({title:'对象传参',content:'哈喽！', button:[{name:'自定义按钮1',callback:function(){alert('自定义按钮1')}}]})</button>
+            <br>
+            <br>
+            <p class="bg-info">$.simpleDialog()第一个参数为字符串。示例：</p>
+            <button class="btn" onclick="$.simpleDialog('对象传参','哈喽！',[{name:'自定义按钮1',callback:function(){alert('自定义按钮1')}},{name:'自定义按钮2',callback:function(){alert('自定义按钮2')}}])">$.simpleDialog('对象传参','哈喽！',[{name:'自定义按钮1',callback:function(){alert('自定义按钮1')}},{name:'自定义按钮2',callback:function(){alert('自定义按钮2')}}])</button>
+            <br>
+            <br>
+            <button class="btn" onclick="$.loadPage('datagrid.html')">$.loadPage("datagrid.html")</button>
+            <br>
+            <br>
+            <button class="btn" onclick="$.loadPage('horizontal-form.html')">$.loadPage("horizontal-form.html")</button>
+            <br>
+            <br>
+            <button class="btn" onclick="$.loadPage('mainFrame/mainFrame2.html')">$.loadPage("mainFrame/mainFrame2.html")</button>
+            <br>
+            <br>
+            <button class="btn green" onclick="$.loadPage('zTree.html')">$.loadPage("zTree.html")</button>
+            <br>
+            <br>
+            <button class="btn yellow" onclick="$.openWindow('winForm.html', 'Sign in', 400, 200)">$.openWindow("winForm.html", "Sign in", 400, 200)</button>
+            <br>
+            <br>
+            <button class="btn btn-primary" onclick="pWin = $.waitPanel(false, function(){alert('关闭回调')})">pWin = $.waitPanel(false, function(){alert("关闭回调")})</button>
+            <button class="btn btn-primary" onclick="pWin.changePercent(10)">pWin.changePercent(10)</button>
+            <button class="btn btn-primary" onclick="pWin.changePercent(20)">..(20)</button>
+            <button class="btn btn-primary" onclick="pWin.changePercent(50)">..(50)</button>
+            <button class="btn btn-primary" onclick="pWin.changePercent(80)">..(80)</button>
+            <button class="btn btn-primary" onclick="pWin.changePercent(100)">..(100)</button>
+            <button class="btn red" onclick="pWin.close()">pWin.close()</button>
+            <br>
+            <br>
+            <button class="btn" onclick="$.loadPage('mainFrame/mainFrame3.html')">$.loadPage("mainFrame/mainFrame3.html")</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            </div>
+            <div class="panel-footer">Panel footer</div>
+        </div>
+
+    </div>
+</body>
+</html>

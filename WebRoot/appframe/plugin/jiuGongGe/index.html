@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>悬浮九宫格菜单jQuery插件</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<script src="js/jquery.min.js"></script>
+    <script src="js/jquery.popmenu.js"></script>
+    <style>
+        #container{
+            max-width: 200px;
+            width: 100%;
+            margin: 20px auto;
+        }
+        .fa{
+            font-size: 30px;
+            line-height: 30px;
+        }     
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="demo_box" style="width: 45px;z-index:100; ">
+            <div class="pop_ctrl"><i class="fa fa-bars" style="color: #3498db;"></i></div>
+            <ul>
+                <li class="demo_li"><a href="http://www.sucaijiayuan.com"><div><i class="fa fa-home"></i></div><div>Home</div></a></li>
+                <li class="demo_li"><a href="http://www.sucaijiayuan.com"><div><i class="fa fa-cloud"></i></div><div>Cloud</div></a></li>
+                <li class="demo_li"><div><i class="fa fa-cog"></i></div><div>settings</div></li>
+                <li class="demo_li"><div><i class="fa fa-envelope"></i></div><div>E-mail</div></li>
+                <li class="demo_li"><div><i class="fa fa-clock-o"></i></div><div>Clock</div></li>
+				<!--<li class="demo_li"><div><i class="fa fa-clock-o"></i></div><div>Clock</div></li>
+				<li class="demo_li"><div><i class="fa fa-clock-o"></i></div><div>Clock</div></li>
+				<li class="demo_li"><div><i class="fa fa-clock-o"></i></div><div>Clock</div></li>-->
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        $(function(){
+            $('#demo_box').popmenu();
+            $('#demo_box_2').popmenu({'background':'#e67e22','focusColor':'#c0392b','borderRadius':'0'});
+        })
+    </script>
+</body>
+</html>

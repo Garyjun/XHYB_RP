@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webapp-configs>
+    <!-- 出版资源-->
+    <!-- 出版关联资源添加-->
+	<!-- 版权是否存在接口-->
+	<param name="COPYRIGHT_ISHAVE_URL" value="http://press.xnft.com.cn/Resource/?c=check"/>
+	<!-- 抽文本回调方法 回调本项目-->
+	<param name="CONVERT_TXT_SUCCESSURL" value="http://localhost:8080/cciph/"/>
+	<!-- 修改资源的某个字段   id:资源Id field:修改字段   新的字段值:value  ?id=urn:publish-b41337da-cc0c-4afc-9866-3aafb424de65&field=date&value=2011-06 -->
+	<param name="PUBLISH_UPDATA_FIELD_URL" value="http://localhost:8080/semantic_index_server/semanticClient/updateCaGraph/"/>
+    <!-- 版权预警-->
+	<param name="COPYRIGHTWARNING_DELALL_URL" value="http://press.xnft.com.cn/Resource/index.php?m=cloud&amp;c=warning"/>
+	<!-- 查询根路径-->
+	<param name="RES_ROOT_URL" value="http://10.130.29.42:8080/semantic_index_server/"/>
+	<!-- KAS接口地址 -->
+	<param name="KASADDRESS" value="http://localhost:10080/ssbs/"/> 
+	<param name="UUID" value="5f788a9d-31f4-4986-b238-60737517bd1e"/>
+	<!-- 出版资源详细列表地址 -->
+	<param name="PUBLISH_DETAILLIST_URL" value="http://localhost:8080/xhsks/publish/ontologyDetailQuery/caList"/>
+    <!-- 版权元数据-->
+	<param name="COPYRIGHT_METADATA_DELALL_URL" value="http://press.xnft.com.cn/Resource/?c=copyright"/>
+	<!-- 自动完成 -->
+	<param name="PUBLISH_AUTOCOMPLATE_URL" value="http://10.130.29.113.8080/xhsks/publish/ontologyListQuery/autoComplate"/>
+    <!-- 版权元数据-->
+	<param name="COPYRIGHT_METADATA_DELALL_URL" value="http://localhost:8080/xhsks/publish/ontologyDelete/caRelation"/>
+    <!-- 出版删除关联关系-->
+	<param name="CA_RELATION_DEL_URL" value="http://localhost:8080/xhsks/publish/ontologyDelete/caRelation"/>
+	<!-- 编辑文件元数据 -->
+	<param name="CA_FILERES_DETAIL_URL" value="http://localhost:8080/xhsks/publish/ontologyDetailQuery/file"/>
+	<!-- 保存文件元数据 -->
+	<param name="CA_FILERES_SAVE_URL" value="http://localhost:8080/xhsks/publish/createOntology/file"/>
+	<!-- 文件视图接口 -->
+	<param name="CA_FILES_BY_PUBLISHTYP" value="http://localhost:8080/xhsks/publish/ontologyListQuery/filesByPublishType"/>
+	<!-- 删除衍生资源 -->
+	<param name="CA_DERIVE_DEL_URL" value="http://localhost:8080/xhsks/publish/ontologyDelete/caRerive"/>
+	<!-- 删除来源资源 -->
+	<param name="CA_SOURCE_DEL_URL" value="http://localhost:8080/xhsks/publish/ontologyDelete/caSource"/>
+	<!-- 文件转换接口 -->
+	<param name="PUBLISH_FILE_WRITE_QUEUE" value="http://localhost:8099/fileService/writeToQueue"/>
+	<!-- pdf转swf&抽取txt -->
+	<param name="PUBLISH_PDF_SWF_TXT" value="http://localhost:8099/fileService/pdfProcess"/>
+	<!-- 校验文件是否可以预览 -->
+	<param name="PUBLISH_READ_WRITE_QUEUE" value="http://localhost:8099/fileService/checkFileIsExsit"/>
+	<!-- txt转换服务接口 -->
+	<param name="PUBLISH_CHANGE_TO_TEXT" value="http://localhost:8099/fileService/convertTxt"/>	
+	<!-- ca关系接口 -->
+	<param name="CA_RELATION_URL" value="http://localhost:8080/xhsks/publish/createOntology/caRelation"/>
+    <!-- 出版资源关联资源查询 -->
+	<param name="CARELATIONS_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/caRelations"/>
+	<!-- 出版资源衍生资源查询 -->
+	<param name="CARERIVS_QUERY_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/caRerives"/>
+	<param name="CARERIVS_CREATE_URL" value="http://localhost:8080/xhsks/publish/createOntology/caRerive"/>
+	<param name="CASOURCES_CREATE_URL" value="http://localhost:8080/xhsks/publish/createOntology/caSource"/>
+	<param name="CABORDER_QUERY_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/caBorders"/>
+    <!-- 出版资源上传文件保存 -->
+	<param name="PUBLISH_FILESAVE_URL" value="http://localhost:8080/xhsks/publish/createOntology/file"/>
+	<!-- 出版资源文件详细列表 -->
+	<param name="PUBLISH_FILELIST_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/files"/>
+	 <!-- 出版资源添加元数据-->
+	<param name="PUBLISH_METADATA_URL" value="http://localhost:8080/xhsks/publish/createOntology/metadataDefine"/>
+	 <!-- 出版资源更新元数据-->
+	<param name="PUBLISH_UPDMETADATA_URL" value="http://localhost:8080/xhsks/publish/createOntology/updateMetadataDefine"/>
+	 <!-- 出版资源删除元数据-->
+	<param name="PUBLISH_DELMETADATA_URL" value="http://localhost:8080/xhsks/publish/ontologyDelete/deleteMetadataDefine"/>
+		 <!-- 出版资源删除元数据(根据组ID)-->
+	<param name="PUBLISH_DELMETADATABYGROUP_URL" value="http://localhost:8080/xhsks/publish/ontologyDelete/delMetadataByGroup"/>
+		 <!-- 出版资源删除文件元数据（根据类型）-->
+	<param name="PUBLISH_DELFILEMETADATA_URL" value="http://localhost:8080/xhsks/publish/ontologyDelete/delFileMetadataByType"/>
+	<!-- 出版资源文件改名 -->
+	<param name="PUBLISH_RENAME_FILE" value="http://localhost:8080/xhsks/publish/createOntology/renameBookItem"/>
+    <!-- 出版资源创建地址 -->
+	<param name="PUBLISH_SAVE_URL" value="http://localhost:8080/xhsks/publish/createOntology/book"/>
+	<param name="PUBLISH_FULL_SEARCH" value="http://localhost:8080/xhsks/publish/ontologyListQuery/bookContents"/>	
+	<!-- 期刊资源查询地址 -->
+	<param name="PUBLISH_QUERY_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/book"/>
+	<!-- 文章资源查询地址 -->
+	<param name="PUBLISH_WZ_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/resWz"/>
+	<!-- 条目资源查询地址 -->
+	<param name="PUBLISH_ENTRY_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/resEntry"/>
+	<!-- 出版资源资源文件查询地址 -->
+	<param name="PUBLISH_FILE_QUERY_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/filesByCa"/>
+	<!-- 出版资源详细地址 -->
+	<param name="PUBLISH_DETAIL_URL" value="http://localhost:8080/xhsks/publish/ontologyDetailQuery/ca"/>
+	<!-- 出版资源详细地址 -->
+	<param name="PUBLISH_FILEDETAIL_URL" value="http://localhost:8080/xhsks/publish/ontologyDetailQuery/file"/>
+	<!-- 期刊资源根据id查询 -->
+	<param name="PUBLISH_QUERYBYPOST_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/bookByPost"/>
+	<!-- 文章资源根据id查询 -->
+	<param name="PUBLISH_ASSETBYPOST_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/assetByPost"/>
+	<!-- 条目资源根据id查询 -->
+	<param name="PUBLISH_ENTRYBYPOST_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/entryByPost"/>
+	<param name="PUBLISH_SOURCENUM_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/resCollection"/>
+	<param name="PUBLISH_fileCount_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/fileCount"/>
+	<!-- 出版资源删除-->
+	<param name="PUBLISH_DELETE_URL" value="http://localhost:8080/xhsks/publish/ontologyDelete/ca"/>
+	<!-- 出版资源查重-->
+	<param name="PUBLISH_REPEAT_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/caRepeat"/>
+	<!--出版资源覆盖-->
+	<param name="PUBLISH_OVERRIDE_URL" value="http://localhost:8080/xhsks/publish/createOntology/caOverride"/>
+	<!-- 出版资源更新状态-->
+	<param name="UPDATE_PUBLISH_STATUS_URL" value="http://localhost:8080/xhsks/publish/createOntology/updateResStatus"/>
+	<!-- 出版资源带版本查重-->
+	<param name="PUBLISH_REPEAT_RESVERSION_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/caRepeatWithResVersion"/>
+	<!-- 出版资源高级查询接口 -->
+	<param name="PUBLISH_SEARCH_RESOURCE_LIST" value="http://localhost:8080/xhsks/publish/ontologyListQuery/resourceList"/>
+	<!-- 出版资源创建目录节点地址 -->
+	<param name="PUBLISH_SAVE_NODE_URL" value="http://localhost:8080/xhsks/publish/createOntology/item"/>
+	<!-- 出版资源删除目录节点地址 -->
+	<param name="PUBLISH_DEL_NODE_URL" value="http://localhost:8080/xhsks/publish/ontologyDelete/file"/>
+	<!-- 出版资源版权预警-->
+	<param name="PUBLISH_COPYRIGHTWARNING_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/copyrightWarning"/>
+	<!-- 出版资源素材资源查询-->
+	<param name="PUBLISH_SCQUERYBYTIME_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/queryScResByTime"/>
+	<!-- 出版资源通过ca查询文件-->
+    <param name="ASSET_PUBLISH_FILE_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/filesByCa"/>
+    <!-- 出版资源资源统计 -->
+    <param name="STATISTICS_RES_PUBCOLLECTION" value="http://localhost:8080/xhsks/publish/ontologyListQuery/resCollection"/>
+    <!-- 定时任务查询entry大事迹月份接口 -->
+    <param name="SEARCH_ENTRY_MONTH" value="http://localhost:8080/xhsks/ontologyListQuery/queryUpdateMysqlEntry"/>
+    <!-- 查询entry大事迹月份接口 -->
+    <param name="SEARCH_ENTRY" value="http://localhost:8080/xhsks/entryOntologyListQuery/queryEventMonthAndDay"/>
+    <!-- 查询entry大事迹详细接口 -->
+    <param name="SEARCH_ENTRY_DETAIL" value="http://localhost:8080/xhsks/entryOntologyDetailQuery/entryDetail"/>
+    <!-- 查询entry大事迹详细接口 (根据资源id批量查询)-->
+    <param name="SEARCH_ENTRYLIST_DETAIL" value="http://localhost:8080/xhsks/entryOntologyDetailQuery/entryDetailList"/>
+    <param name="SEARCH_ENTRY_DETAIL" value="http://localhost:8080/xhsks/entryOntologyDetailQuery/entryDetail"/>
+    <!-- 查询entry大事迹详细接口 (根据资源id批量查询)-->
+    <param name="SEARCH_ENTRYLIST_DETAIL" value="http://localhost:8080/xhsks/ontologyDetailQuery/entryDetailList"/>
+    
+    <!-- 查询asset详细接口 -->
+    <param name="SEARCH_ASSET_DETAIL" value="http://localhost:8080/xhsks/fragmengOntologyDetailQuery/assetDetail"/>
+	<!-- 碎片资源列表查询 -->
+    <param name="Asset_RES_PUBCOLLECTION" value="http://localhost:8080/xhsks/fragmentOntologyListQuery/assetQueryList"/>
+    
+    <!-- 文章列表查询 -->
+    <param name="Article_RES_PUBCOLLECTION" value="http://localhost:8080/xhsks/article/ontologyDetailQuery/articleQueryList"/>
+    <!-- 文章资源详细 -->
+    <param name="Article_DETAIL_CONTENT" value="http://localhost:8080/xhsks/article/ontologyDetailQuery/detailArticle"/>
+    <!-- 文章资源详细 (根据资源id批量查询)-->
+    <param name="Article_DETAILList_CONTENT" value="http://localhost:8080/xhsks/article/ontologyDetailQuery/detailArticleList"/>
+    <!-- 文章资源修改 -->
+    <param name="Article_UPDATE_CONTENT" value="http://localhost:8080/xhsks/article/ontologyDetailQuery/updateArticle"/>
+	<!-- 期刊资源 详细(根据资源id批量查询)-->
+	<param name="JOURNAL_DETAILList_URL" value="http://localhost:8080/xhsks/journal/ontologyQuery/journalDetailCaList"/>
+	
+	<!-- 期刊资源 列表 -->
+    <param name="JOURNAL_LIST_URL" value="http://localhost:8080/xhsks/journal/ontologyQuery/journalList"/>
+    <!-- 期刊资源 详细-->
+	<param name="JOURNAL_DETAIL_URL" value="http://localhost:8080/xhsks/journal/ontologyQuery/journalDetail"/>
+	<!-- 期刊资源 创建 -->
+	<param name="JOURNAL_SAVE_URL" value="http://localhost:8080/xhsks/journal/ontologyQuery/journalSave"/>
+	<!-- 期刊资源 根据id获取插图路径 -->
+	<param name="JOURNAL_IMAGE_PATH" value="http://localhost:8080/xhsks/journal/ontologyQuery/getImagePathById"/>
+	
+	<!-- 条目资源根据id查询 -->
+	<param name="PUBLISH_ENTRYBYPOST_URL" value="http://localhost:8080/xhsks/publish/ontologyListQuery/entryByPost"/>
+	<!-- 期刊资源 列表 -->
+    <param name="JOURNAL_LIST_URL" value="http://localhost:8080/xhsks/journal/ontologyQuery/journalList"/>
+    <!-- 期刊资源 详细-->
+	<param name="JOURNAL_DETAIL_URL" value="http://localhost:8080/xhsks/journal/ontologyQuery/journalDetail"/>
+	<!-- 期刊资源 创建 -->
+	<param name="JOURNAL_SAVE_URL" value="http://localhost:8080/xhsks/journal/ontologyQuery/journalSave"/>
+	<!-- 期刊资源 根据id获取插图路径 -->
+	<param name="JOURNAL_IMAGE_PATH" value="http://localhost:8080/xhsks/journal/ontologyQuery/getImagePathById"/>
+	<!-- 获取元数据接口 -->
+	<param name="METADATA_PATH" value="http://localhost:8080/xhsks/ontologyListQuery/getCustomMetaData"/>
+	
+	<!-- 
+		参数功能：配置系统支持的平台类型
+		1.英文名称：platformId
+		2.参数值：
+		  platformId=1   教育平台  
+		  platformId=2   出版平台
+		如：
+		value=1,2  说明系统同时启用了教育和出版系统
+		value=1       说明系统只启用了教育平台
+		value=2       说明系统只启用了出版平台
+	 -->
+	<param name="platformId" value="2"/>
+	
+</webapp-configs>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<!-- 是需要部署jbpm流程定义 true需要 false 不需要 -->
+	<param name="DEPLOY_PROCESS_DEFINITION" value="false" />
+	<!-- jbpm流程定义部署方式 create:创建 update:用新版本流程定义覆盖旧版本 ,delete 删除所有流程数据 -->
+	<param name="PROCESS_DEFINITION_DEPLOY_MODE" value="update" />
+	<!-- 部署的流程定义列表 -->
+	<param name="PROCESS_DEFINITION_LIST">
+		<value>pubresCheck</value>
+		<value>orderCheck</value>
+		<value>subjectCheck</value>
+	</param>
+</configs>

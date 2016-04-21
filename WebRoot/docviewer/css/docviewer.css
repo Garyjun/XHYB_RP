@@ -1,0 +1,5 @@
+.docviewer_error {
+	background-image: url(error.jpg);
+	background-attachment: scroll;
+	background-position: center center;
+}

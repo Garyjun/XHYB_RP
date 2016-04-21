@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+    xmlns:beans="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd">
+
+<!--     <debug/> -->
+    
+    <global-method-security pre-post-annotations="enabled" ></global-method-security>
+    
+     <!-- 配置不进行拦截， 后面的*主要是请求页面可能会带有一些参数-->
+<!--     <http pattern="/index.jsp" security="none"/> -->
+    <http pattern="/error/**" security="none"/> 
+    <http pattern="/inc/**" security="none"/>
+    <http pattern="/appframe/main/**" security="none"/>
+    <http pattern="/appframe/plugin/**" security="none"/>
+    <http pattern="/appframe/util/**" security="none"/>
+    <http pattern="/system/logout.action" security="none"/>
+    <http pattern="/resMgmtService/getResMetaDataByIdentifer.action" security="none"/>
+    <http pattern="/resMgmtService/getResFileInfoByIdentifer.action" security="none"/>
+    <http pattern="/resMgmtService/queryResListByAttr.action" security="none"/>
+    <http pattern="/changeSolrQueneStatus/updAction.action" security="none"/>
+    <http pattern="/resReleaseMgmtService/updateReleaseInfo.action" security="none"/>
+    <http pattern="/materialService/getMaterialRes.action" security="none"/>
+    <http pattern="/system/login.jsp" security="none"/>
+    <http pattern="/security/**" security="none"/>
+    <http pattern="/jbpmPrcsDef/**" security="none"/>
+    <http pattern="/jbpmArchiveDeploy/**" security="none"/>
+    <http pattern="/fileDir/**" security="none"/>
+    <http pattern="/docviewer/**" security="none"/>
+    
+    
+    <!-- 页面标签权限功能依赖,该配置必须放在<http auto-config="true">配置之前 -->  
+	<beans:bean id="webInvocationFilter"  
+	               class="org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator">  
+	     <beans:constructor-arg ref="commonSecurityFilter" />  
+	</beans:bean>   
+	
+    <http auto-config="false" use-expressions="true"  entry-point-ref="authenticationProcessingFilterEntryPoint"> 
+     <!--   
+    default-target-url       指定了从登录页面登录后进行跳转的页面  
+    always-use-default-target   true表示登录成功后强制跳转  
+    authentication-failure-url  表示验证失败后进入的页面  
+    login-processing-url       设置验证登录验证地址，如果不设置，默认是j_spring_security_check  
+    username-parameter,password-parameter     设置登录用户名和密码的请求name，默认：j_username,j_password  
+    default-target-url="/system/home"   
+   -->  
+   
+   	<remember-me token-validity-seconds="123456789" user-service-ref="commonUserDetailService" data-source-ref="dataSource"/>
+    
+    <!-- 设置登录过滤器 -->
+    <custom-filter position="CONCURRENT_SESSION_FILTER" ref="concurrencyFilter" />
+    
+	<custom-filter ref="myLoginFilter" before="FORM_LOGIN_FILTER" />
+
+	<custom-filter ref="commonSecurityFilter" before="FILTER_SECURITY_INTERCEPTOR"/> 
+    
+    <!-- 登录表单设置 -->
+<!--     <form-login login-page="/system/login.jsp"  
+                always-use-default-target="true"  
+                authentication-failure-url="/loginError.jsp"  
+                login-processing-url="/logincheck"  
+                authentication-success-handler-ref="successHandler"/>  --> 
+                
+      <logout invalidate-session="false" logout-url="/j_spring_security_logout" logout-success-url="/system/logout.action" delete-cookies="JSESSIONID" />
+     <!-- id登陆唯一. 后登陆的账号会挤掉第一次登陆的账号 ，concurrency-control配置属性  error-if-maximum-exceeded="true" 禁止2次登陆;   
+            session-fixation-protection="none" 防止伪造sessionid攻击. 用户登录成功后会销毁用户当前的session.   
+            创建新的session,并把用户信息复制到新session中.
+            注:       
+            如果concurrency-control标签配置了error-if-maximum-exceeded="true"，
+    max-sessions="1"，那么第二次登录时，是登录不了的。如果error-if-maximum-exceeded="false",
+           那么第二次是能够登录到系统的，但是第一个登录的账号再次发起请求时，
+           会跳转到expired-url配置的url中
+          （如果没有配置，则显示This session has been expired 
+    (possibly due to multiple concurrent logins being attempted as the same user).提示信息）   
+         --> 
+   <session-management   
+        session-authentication-strategy-ref="sessionAuthenticationStrategy"   
+        invalid-session-url="/error/errorSession.jsp"/>    
+    
+    </http>
+    
+    
+   <authentication-manager alias="authManager"  erase-credentials="false">  
+    <authentication-provider user-service-ref="commonUserDetailService">  
+        <password-encoder ref="md5Encoder" >  
+        </password-encoder>  
+    </authentication-provider>  
+  </authentication-manager> 
+  
+  
+    <beans:bean id="md5Encoder" class="com.brainsoon.common.util.md5.MD5Encoder"/> 
+    <beans:bean id="commonUserDetailService" class="com.brainsoon.common.service.security.CommonUserDetailService"  />
+    <beans:bean id="commonAccessDecisionManager" class="com.brainsoon.common.service.security.CommonAccessDecisionManager"/> 
+	<beans:bean id="commonSecurityMetadataSource" class="com.brainsoon.common.service.security.CommonSecurityMetadataSource" init-method="loadResourceDefine"/>
+
+
+	<!-- 用户登录平台类型过滤器 -->
+	<beans:bean id="myLoginFilter"
+		class="com.brainsoon.common.service.security.CommonUserNamePasswordAuthenticationFilter">
+		<!-- 处理登录的action -->
+		<beans:property name="filterProcessesUrl" value="/j_spring_security_check"></beans:property>
+		<!-- <beans:property name="defaultTargetUrl" value="/index.jsp" /> -->
+		<!-- <beans:property name="defaultFailureUrl" value="/system/login.jsp" 
+			/> -->
+		<beans:property name="authenticationSuccessHandler"
+			ref="successHandler"></beans:property>
+		<beans:property name="authenticationFailureHandler"
+			ref="failureHandler"></beans:property>
+		<beans:property name="sessionAuthenticationStrategy"
+			ref="sessionAuthenticationStrategy" />
+		<beans:property name="authenticationManager" ref="authManager"></beans:property>
+	</beans:bean>
+	
+
+  <!-- 过滤器 --> 
+  <beans:bean id="commonSecurityFilter" class="org.springframework.security.web.access.intercept.FilterSecurityInterceptor">
+	    <!-- 用户拥有的权限 -->  
+	    <beans:property name="authenticationManager" ref="authManager"></beans:property>
+		<!-- 用户是否拥有所请求资源的权限 -->  
+		<beans:property name="accessDecisionManager" ref="commonAccessDecisionManager"></beans:property>
+		<!-- 资源与权限对应关系 -->  
+        <beans:property name="securityMetadataSource" ref="commonSecurityMetadataSource" />  
+  </beans:bean>
+
+ 
+  <!-- 登录失败后业务处理 -->  
+  <beans:bean id="failureHandler" class="com.brainsoon.common.service.security.LoginAuthenticationFailureHandler">
+  	<beans:property name="defaultUrl" value="/loginError.jsp"></beans:property>  <!-- 可变换登录成功后的路径，验证用户是否拥有该权限 -->
+  </beans:bean>  
+  <!-- 登录成功业务处理 -->  
+  <beans:bean id="successHandler" class="com.brainsoon.common.service.security.LoginAuthenticationSuccesssHandler">  
+    <beans:property name="defaultUrl" value="/index/index.jsp"></beans:property>  <!-- 可变换登录成功后的路径，验证用户是否拥有该权限 -->  
+    <beans:property name="updatePwdUrl" value="/system/user/update_password.jsp"></beans:property>  <!-- 第一次登录成功后，需要修改密码 -->
+  </beans:bean>  
+  
+   <!-- 未登录的切入点 -->  
+   <beans:bean id="authenticationProcessingFilterEntryPoint" class="org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint">  
+        <beans:property name="loginFormUrl" value="/system/login.jsp"></beans:property>  
+   </beans:bean>
+
+	<!-- sessionManagementFilter -->
+	<beans:bean id="concurrencyFilter"
+		class="org.springframework.security.web.session.ConcurrentSessionFilter">
+		<beans:property name="sessionRegistry" ref="sessionRegistry" />
+		<beans:property name="expiredUrl" value="/error/errorSession.jsp" />
+	</beans:bean>
+	<beans:bean id="sessionAuthenticationStrategy"
+		class="org.springframework.security.web.authentication.session.ConcurrentSessionControlStrategy">
+		<beans:constructor-arg name="sessionRegistry"
+			ref="sessionRegistry" />
+		<beans:property name="maximumSessions" value="10" />
+	</beans:bean>
+	<beans:bean id="sessionRegistry"
+		class="org.springframework.security.core.session.SessionRegistryImpl" />
+   
+</beans:beans>

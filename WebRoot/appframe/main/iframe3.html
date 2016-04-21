@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-CN">
+<head>
+    <title>iframe</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style-metronic.css">
+    <!--[if lt IE 9]>
+    <script src="js/libs/html5shiv.min.js"></script>
+    <script src="js/libs/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/iframe.js"></script>
+</head>
+<body>
+<div id="fakeFrame" class="container-fluid by-frame-wrap">
+    <ul class="page-breadcrumb breadcrumb">
+        <li>
+            <a href="###">原始资源</a>
+            <i class="fa fa-angle-right"></i>
+        </li>
+        <li>
+            <a href="###">基础资源管理</a>
+            <i class="fa fa-angle-right"></i>
+        </li>
+        <li><a href="###">添加资源</a></li>
+    </ul>
+
+    <div class="by-tab">
+        <ul class="nav nav-tabs nav-justified" id="myTab">
+            <li class="active"><a href="#tab_1_1_1" data-toggle="tab">分类检索</a></li>
+            <li><a href="#tab_1_1_2" data-toggle="tab">条件检索</a></li>
+            <li><a href="#tab_1_1_3" data-toggle="tab">关键字检索</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="tab_1_1_1">
+
+                <form action="#" id="form_sample_1" class="form-horizontal">
+                    <div class="portlet">
+                        <div class="portlet-title">
+                            <div class="caption">资源信息 <a href="javascript:;" onclick="togglePortlet(this)"><i
+                                    class="fa fa-angle-up"></i></a></div>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3"><i class="must">*</i>版本：</label>
+
+                                            <div class="col-md-9">
+                                                <select class="form-control">
+                                                    <option>请选择</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3"><i class="must">*</i>学段：</label>
+
+                                            <div class="col-md-9">
+                                                <select class="form-control">
+                                                    <option>请选择</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3"><i class="must">*</i>年级：</label>
+
+                                            <div class="col-md-9">
+                                                <select class="form-control">
+                                                    <option>请选择</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3"><i class="must">*</i>学科：</label>
+
+                                            <div class="col-md-9">
+                                                <select class="form-control">
+                                                    <option>请选择</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="col-md-12">
+                                                <fieldset>
+                                                    <legend><i class="must">*</i>阅读消费方式设置</legend>
+                                                    <div class="col-md-7">
+                                                        <label class="control-label col-md-6">消费类型：</label>
+
+                                                        <div class="col-md-6">
+                                                            <select class="form-control">
+                                                                <option>免费</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <label class="control-label col-md-6">消费值：</label>
+
+                                                        <div class="col-md-6">
+                                                            <input type="text" class="form-control" placeholder="0">
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portlet">
+                        <div class="portlet-title">
+                            <div class="caption">制作者信息 <a href="javascript:;" onclick="togglePortlet(this)"><i
+                                    class="fa fa-angle-up"></i></a></div>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3"><i class="must">*</i>制作者：</label>
+
+                                            <div class="col-md-9">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portlet">
+                        <div class="portlet-title">
+                            <div class="caption">tab 说明 <a href="javascript:;" onclick="togglePortlet(this)"><i
+                                    class="fa fa-angle-up"></i></a></div>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="container-fluid">
+                                <p class="bg-info">可在控制台参看点击tab的上下文信息。</p>
+<pre>
+$('#myTab a').click(function (e) {
+    e.preventDefault();
+    console.dir($(this).context);
+    $.simpleDialog($(this).context.innerText, $(this).context.hash);
+});
+</pre>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portlet">
+                        <div class="portlet-title">
+                            <div class="caption">文件信息 <a href="javascript:;" onclick="togglePortlet(this)"><i
+                                    class="fa fa-angle-up"></i></a></div>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3"><i class="must">*</i>文件：</label>
+                                            <div class="col-md-9">
+                                                <input type="file" class="default"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-lg blue">提交</button>
+                        <button type="button" class="btn btn-lg red">取消</button>
+                    </div>
+                </form>
+            </div>
+            <div class="tab-pane" id="tab_1_1_2">
+
+            </div>
+            <div class="tab-pane" id="tab_1_1_3">
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('#myTab a').click(function (e) {
+            e.preventDefault();
+            console.dir($(this).context);
+            $.simpleDialog($(this).context.innerText, $(this).context.hash);
+        });
+    </script>
+
+
+    <div class="portlet portlet-border">
+        <div class="portlet-title">
+            <div class="caption">文件信息 <a href="javascript:;" onclick="togglePortlet(this)"><i class="fa fa-angle-up"></i></a></div>
+        </div>
+        <div class="portlet-body">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="control-label col-md-3"><i class="must">*</i>版本：</label>
+
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>请选择</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="control-label col-md-3"><i class="must">*</i>学段：</label>
+
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>请选择</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="control-label col-md-3"><i class="must">*</i>年级：</label>
+
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>请选择</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="control-label col-md-3"><i class="must">*</i>学科：</label>
+
+                            <div class="col-md-9">
+                                <select class="form-control">
+                                    <option>请选择</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <legend><i class="must">*</i>阅读消费方式设置</legend>
+                                    <div class="col-md-7">
+                                        <label class="control-label col-md-6">消费类型：</label>
+
+                                        <div class="col-md-6">
+                                            <select class="form-control">
+                                                <option>免费</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <label class="control-label col-md-6">消费值：</label>
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-control" placeholder="0">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                            <span class="input-group-btn">
+                                <a href="javasript:;" class="btn">选择</a>
+                                <a href="javasript:;" class="btn">清除</a>
+                            </span>.
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn blue">选择</button>
+                                <button type="button" class="btn red">清除</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

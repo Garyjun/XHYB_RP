@@ -1,0 +1,103 @@
+.by-login {
+  width: 100%;
+  position: relative;
+  background-color: #b9e3fc;
+  overflow: hidden;
+}
+
+.by-login .login-box {
+  position: absolute;
+  bottom: 240px;
+  right: 200px;
+  width: 340px;
+  height: 295px;
+  padding: 30px 40px;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px #666;
+  z-index: 1000;
+}
+
+.by-login .login-box .balloon {
+  position: absolute;
+  top: -110px;
+  left: 128px;
+  width: 84px;
+  height: 110px;
+  z-index: 999;
+  overflow: hidden;
+  background: url("../images/login-bg.png") no-repeat 0 -520px;
+}
+
+.by-login h3.company-info {
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  width: 340px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0 15px;
+  font-size: 12px;
+  color: #666668;
+  font-family: "微软雅黑";
+  text-align: center;
+}
+
+.login-box-header {
+  margin-bottom: 20px;
+}
+
+.login-box-header img {
+  width: 260px;
+  height: 60px;
+}
+
+.by-login .input-icon {
+  border-left: 3px solid #169ef4 !important;
+}
+
+.by-login .btn-login {
+  width: 120px;
+  height: 35px;
+}
+
+.by-login .btn-login .fa{
+  margin-left: .5em;
+}
+
+.by-login .form-actions {
+  padding: 0;
+  background-color: #fff;
+  border-top: 0 none;
+}
+
+.by-login .bottom-bg {
+  position: absolute;
+  bottom:0;
+  left:0;
+  width: 100%;
+  height: 200px;
+  background-color: #169ef4;
+}
+
+.by-login .left-bg {
+  width: 740px;
+  height: 520px;
+  position: absolute;
+  left: 0;
+  bottom: 118px;
+  z-index: 999;
+  overflow: hidden;
+  background: url("../images/login-bg.png") no-repeat 0 0;
+}
+
+.by-login .rainbow-bg {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  right: 0;
+  bottom: 200px;
+  z-index: 999;
+  overflow: hidden;
+  background: url("../images/login-bg.png") no-repeat -640px -640px;
+}

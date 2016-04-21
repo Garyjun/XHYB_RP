@@ -1,0 +1,1469 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid" content=""/>
+		<meta name="dtb:depth" content="2"/>
+		<meta name="dtb:generator" content=""/>
+		<meta name="dtb:totalPageCount" content=""/>
+		<meta name="dtb:maxPageNumber" content=""/>
+	</head>
+	<docTitle>
+		<text/>
+	</docTitle>
+	<docAuthor>
+		<text/>
+	</docAuthor>
+	<navMap>
+		<navPoint catalog="content" class="body" level="chapter" id="新华月报1994年10期总第600期-1" playOrder="1">
+			<navLabel>
+				<text>新华月报1994年10期总第600期</text>
+				<navStartPage>1</navStartPage>
+				<navEndPage>3</navEndPage>
+				<bookStartPage>1</bookStartPage>
+				<bookEndPage>3</bookEndPage>
+			</navLabel>
+			<content src="新华月报1994年10期总第600期.pdf#1"/>
+			<navPoint catalog="content" class="pre" level="section" id="新华月报1994年10期总第600期-2" playOrder="2">
+				<navLabel>
+					<text>目录</text>
+					<navStartPage>3</navStartPage>
+					<navEndPage>6</navEndPage>
+					<bookStartPage>3</bookStartPage>
+					<bookEndPage>6</bookEndPage>
+				</navLabel>
+				<content src="新华月报1994年10期总第600期.pdf#3"/>
+			</navPoint>
+			<navPoint catalog="content" class="body" level="section" id="新华月报1994年10期总第600期-3" playOrder="3">
+				<navLabel>
+					<text>政治</text>
+					<navStartPage>7</navStartPage>
+					<navEndPage>71</navEndPage>
+					<bookStartPage>7</bookStartPage>
+					<bookEndPage>71</bookEndPage>
+				</navLabel>
+				<content src="新华月报1994年10期总第600期.pdf#7"/>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-4" playOrder="4">
+					<navLabel>
+						<text>李鹏总理在庆祝中华人民共和国成立四十五周年招待会上的讲话</text>
+						<navStartPage>7</navStartPage>
+						<navEndPage>7</navEndPage>
+						<bookStartPage>7</bookStartPage>
+						<bookEndPage>7</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#7"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-5" playOrder="5">
+					<navLabel>
+						<text>国家副主席荣毅仁举行盛大国庆招待会，款待港澳同胞、台湾同胞以及外籍华人</text>
+						<navStartPage>8</navStartPage>
+						<navEndPage>8</navEndPage>
+						<bookStartPage>8</bookStartPage>
+						<bookEndPage>8</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#8"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-6" playOrder="6">
+					<navLabel>
+						<text>全国政协和统战部举行国庆招待会，国家外专局向九十九位外国专家等颁发“友谊奖”</text>
+						<navStartPage>9</navStartPage>
+						<navEndPage>9</navEndPage>
+						<bookStartPage>9</bookStartPage>
+						<bookEndPage>9</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#9"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-7" playOrder="7">
+					<navLabel>
+						<text>首都举行盛大游园活动和联欢晚会庆祝建国四十五周年，党和国家领导人与群众一起共度节日</text>
+						<navStartPage>10</navStartPage>
+						<navEndPage>10</navEndPage>
+						<bookStartPage>10</bookStartPage>
+						<bookEndPage>10</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#10"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-8" playOrder="8">
+					<navLabel>
+						<text>为胜利跨入二十一世纪而奋斗——国庆献辞</text>
+						<navStartPage>11</navStartPage>
+						<navEndPage>11</navEndPage>
+						<bookStartPage>11</bookStartPage>
+						<bookEndPage>11</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#11"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-9" playOrder="9">
+					<navLabel>
+						<text>中国共产党第十四届中央委员会第四次全体会议公报</text>
+						<navStartPage>12</navStartPage>
+						<navEndPage>12</navEndPage>
+						<bookStartPage>12</bookStartPage>
+						<bookEndPage>12</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#12"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-10" playOrder="10">
+					<navLabel>
+						<text>中共中央关于加强党的建设几个重大问题的决定</text>
+						<navStartPage>13</navStartPage>
+						<navEndPage>18</navEndPage>
+						<bookStartPage>13</bookStartPage>
+						<bookEndPage>18</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#13"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-11" playOrder="11">
+					<navLabel>
+						<text>新增选的中央政治局委员和新增补的中央书记处书记的简历</text>
+						<navStartPage>19</navStartPage>
+						<navEndPage>19</navEndPage>
+						<bookStartPage>19</bookStartPage>
+						<bookEndPage>19</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#19"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-12" playOrder="12">
+					<navLabel>
+						<text>中共中央召开党外人士座谈会，就十四届四中全会《决定》（征求意见稿）征求意见</text>
+						<navStartPage>20</navStartPage>
+						<navEndPage>20</navEndPage>
+						<bookStartPage>20</bookStartPage>
+						<bookEndPage>20</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#20"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-13" playOrder="13">
+					<navLabel>
+						<text>中国共产党中央纪律检查委员会第四次全体会议公报</text>
+						<navStartPage>21</navStartPage>
+						<navEndPage>21</navEndPage>
+						<bookStartPage>21</bookStartPage>
+						<bookEndPage>21</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#21"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-14" playOrder="14">
+					<navLabel>
+						<text>新的伟大的工程——认真学习和贯彻党的十四届四中全会《决定》</text>
+						<navStartPage>22</navStartPage>
+						<navEndPage>22</navEndPage>
+						<bookStartPage>22</bookStartPage>
+						<bookEndPage>22</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#22"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-15" playOrder="15">
+					<navLabel>
+						<text>学习的目的全在于落实——再论认真学习和贯彻四中全会《决定》</text>
+						<navStartPage>23</navStartPage>
+						<navEndPage>23</navEndPage>
+						<bookStartPage>23</bookStartPage>
+						<bookEndPage>23</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#23"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-16" playOrder="16">
+					<navLabel>
+						<text>坚持和健全民主集中制——三论认真学习和贯彻四中全会《决定》</text>
+						<navStartPage>24</navStartPage>
+						<navEndPage>24</navEndPage>
+						<bookStartPage>24</bookStartPage>
+						<bookEndPage>24</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#24"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-17" playOrder="17">
+					<navLabel>
+						<text>加强和改进党的基层组织建设——四论认真学习和贯彻四中全会《决定》</text>
+						<navStartPage>25</navStartPage>
+						<navEndPage>25</navEndPage>
+						<bookStartPage>25</bookStartPage>
+						<bookEndPage>25</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#25"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-18" playOrder="18">
+					<navLabel>
+						<text>大力培养和选拔德才兼备的领导干部——五论认真学习和贯彻四中全会《决定》</text>
+						<navStartPage>26</navStartPage>
+						<navEndPage>26</navEndPage>
+						<bookStartPage>26</bookStartPage>
+						<bookEndPage>26</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#26"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-19" playOrder="19">
+					<navLabel>
+						<text>牢记整体目标　贯彻整体部署——六论认真学习和贯彻四中全会《决定》</text>
+						<navStartPage>27</navStartPage>
+						<navEndPage>27</navEndPage>
+						<bookStartPage>27</bookStartPage>
+						<bookEndPage>27</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#27"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-20" playOrder="20">
+					<navLabel>
+						<text>党要管党</text>
+						<navStartPage>28</navStartPage>
+						<navEndPage>28</navEndPage>
+						<bookStartPage>28</bookStartPage>
+						<bookEndPage>28</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#28"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-21" playOrder="21">
+					<navLabel>
+						<text>江泽民在四川、湖北考察时强调继续促进改革发展和稳定，群策群力狠抓落实</text>
+						<navStartPage>29</navStartPage>
+						<navEndPage>30</navEndPage>
+						<bookStartPage>29</bookStartPage>
+						<bookEndPage>30</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#29"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-22" playOrder="22">
+					<navLabel>
+						<text>李鹏在河北考察时强调学习贯彻四中全会精神，集中精力抓好党的建设和经济建设</text>
+						<navStartPage>31</navStartPage>
+						<navEndPage>31</navEndPage>
+						<bookStartPage>31</bookStartPage>
+						<bookEndPage>31</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#31"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-23" playOrder="23">
+					<navLabel>
+						<text>乔石在广东考察时强调加强党建要密切联系实际</text>
+						<navStartPage>31</navStartPage>
+						<navEndPage>31</navEndPage>
+						<bookStartPage>31</bookStartPage>
+						<bookEndPage>31</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#31"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-24" playOrder="24">
+					<navLabel>
+						<text>李瑞环在贵州考察工作时强调贯彻四中全会精神要结合实际，讲求实效</text>
+						<navStartPage>32</navStartPage>
+						<navEndPage>32</navEndPage>
+						<bookStartPage>32</bookStartPage>
+						<bookEndPage>32</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#32"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-25" playOrder="25">
+					<navLabel>
+						<text>胡锦涛在省部级干部研究班结业典礼上强调认真落实中央四中全会决定，全面推进加强党建伟大工程</text>
+						<navStartPage>33</navStartPage>
+						<navEndPage>33</navEndPage>
+						<bookStartPage>33</bookStartPage>
+						<bookEndPage>33</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#33"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-26" playOrder="26">
+					<navLabel>
+						<text>政协第八届全国委员会常委会举行第八次会议</text>
+						<navStartPage>34</navStartPage>
+						<navEndPage>34</navEndPage>
+						<bookStartPage>34</bookStartPage>
+						<bookEndPage>34</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#34"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-27" playOrder="27">
+					<navLabel>
+						<text>中国人民政治协商会议全国委员会提案工作条例</text>
+						<navStartPage>35</navStartPage>
+						<navEndPage>36</navEndPage>
+						<bookStartPage>35</bookStartPage>
+						<bookEndPage>36</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#35"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-28" playOrder="28">
+					<navLabel>
+						<text>政协第八届全国委员会人事调整名单</text>
+						<navStartPage>37</navStartPage>
+						<navEndPage>37</navEndPage>
+						<bookStartPage>37</bookStartPage>
+						<bookEndPage>37</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#37"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-29" playOrder="29">
+					<navLabel>
+						<text>民主党派、工商联学习贯彻中共十四届四中全会精神</text>
+						<navStartPage>37</navStartPage>
+						<navEndPage>37</navEndPage>
+						<bookStartPage>37</bookStartPage>
+						<bookEndPage>37</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#37"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-30" playOrder="30">
+					<navLabel>
+						<text>中华人民共和国执行《提高妇女地位内罗毕前瞻性战略》国家报告</text>
+						<navStartPage>38</navStartPage>
+						<navEndPage>45</navEndPage>
+						<bookStartPage>38</bookStartPage>
+						<bookEndPage>45</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#38"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-31" playOrder="31">
+					<navLabel>
+						<text>中华人民共和国执行《提高妇女地位内罗毕前瞻性战略》国家报告（图表）</text>
+						<navStartPage>46</navStartPage>
+						<navEndPage>51</navEndPage>
+						<bookStartPage>46</bookStartPage>
+						<bookEndPage>51</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#46"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-32" playOrder="32">
+					<navLabel>
+						<text>一定要实现妇女行动目标——写在《中华人民共和国执行〈提高妇女地位内罗毕前瞻性战略〉国家报告》发表之际</text>
+						<navStartPage>52</navStartPage>
+						<navEndPage>52</navEndPage>
+						<bookStartPage>52</bookStartPage>
+						<bookEndPage>52</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#52"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-33" playOrder="33">
+					<navLabel>
+						<text>中国二十一世纪议程——中国21世纪人口、环境与发展白皮书（摘要）</text>
+						<navStartPage>52</navStartPage>
+						<navEndPage>56</navEndPage>
+						<bookStartPage>52</bookStartPage>
+						<bookEndPage>56</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#52"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-34" playOrder="34">
+					<navLabel>
+						<text>国务院第二次全国民族团结进步表彰大会在京举行</text>
+						<navStartPage>57</navStartPage>
+						<navEndPage>57</navEndPage>
+						<bookStartPage>57</bookStartPage>
+						<bookEndPage>57</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#57"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-35" playOrder="35">
+					<navLabel>
+						<text>江泽民在国务院第二次全国民族团结进步表彰大会上的讲话</text>
+						<navStartPage>58</navStartPage>
+						<navEndPage>58</navEndPage>
+						<bookStartPage>58</bookStartPage>
+						<bookEndPage>58</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#58"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-36" playOrder="36">
+					<navLabel>
+						<text>在建设有中国特色社会主义的伟大事业中不断促进民族团结和进步——李鹏1994年9月29日在国务院第二次全国民族团结进步表彰大会上的讲话</text>
+						<navStartPage>59</navStartPage>
+						<navEndPage>59</navEndPage>
+						<bookStartPage>59</bookStartPage>
+						<bookEndPage>59</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#59"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-37" playOrder="37">
+					<navLabel>
+						<text>团结进步　兴我中华——热烈祝贺第二次全国民族团结进步表彰大会召开</text>
+						<navStartPage>60</navStartPage>
+						<navEndPage>60</navEndPage>
+						<bookStartPage>60</bookStartPage>
+						<bookEndPage>60</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#60"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-38" playOrder="38">
+					<navLabel>
+						<text>国务院、中央军委发布命令，十五名同志晋升武警中将、少将警衔</text>
+						<navStartPage>61</navStartPage>
+						<navEndPage>61</navEndPage>
+						<bookStartPage>61</bookStartPage>
+						<bookEndPage>61</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#61"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-39" playOrder="39">
+					<navLabel>
+						<text>国务院、中央军委发布今冬征兵命令，强调要保证新兵质量纠正不正之风</text>
+						<navStartPage>62</navStartPage>
+						<navEndPage>62</navEndPage>
+						<bookStartPage>62</bookStartPage>
+						<bookEndPage>62</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#62"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-40" playOrder="40">
+					<navLabel>
+						<text>国务院、中央军委发出《关于一九九四年冬季士兵退出现役工作的通知》</text>
+						<navStartPage>62</navStartPage>
+						<navEndPage>62</navEndPage>
+						<bookStartPage>62</bookStartPage>
+						<bookEndPage>62</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#62"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-41" playOrder="41">
+					<navLabel>
+						<text>中央办公厅、国务院办公厅、中央军委办公厅发出通知，要求各地进一步加强预备役部队建设</text>
+						<navStartPage>63</navStartPage>
+						<navEndPage>63</navEndPage>
+						<bookStartPage>63</bookStartPage>
+						<bookEndPage>63</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#63"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-42" playOrder="42">
+					<navLabel>
+						<text>中央社会治安综合治理委员会第十三次全体会议在京举行，任建新在会上强调进一步加强党建推动社会治安综合治理</text>
+						<navStartPage>63</navStartPage>
+						<navEndPage>63</navEndPage>
+						<bookStartPage>63</bookStartPage>
+						<bookEndPage>63</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#63"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-43" playOrder="43">
+					<navLabel>
+						<text>朱镕基在第三次全国经济审判工作会议上强调建立社会主义市场经济体制需要健全的立法、司法来保证</text>
+						<navStartPage>64</navStartPage>
+						<navEndPage>64</navEndPage>
+						<bookStartPage>64</bookStartPage>
+						<bookEndPage>64</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#64"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-44" playOrder="44">
+					<navLabel>
+						<text>最高人民法院关于办理伪造国家货币、贩运伪造的国家货币、走私伪造的货币犯罪案件具体应用法律的若干问题的解释</text>
+						<navStartPage>65</navStartPage>
+						<navEndPage>65</navEndPage>
+						<bookStartPage>65</bookStartPage>
+						<bookEndPage>65</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#65"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-45" playOrder="45">
+					<navLabel>
+						<text>全国公安机关严打整治工作会议和纪委书记会议在京举行，任建新在会上提出要把严打整治斗争引向深入</text>
+						<navStartPage>66</navStartPage>
+						<navEndPage>66</navEndPage>
+						<bookStartPage>66</bookStartPage>
+						<bookEndPage>66</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#66"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-46" playOrder="46">
+					<navLabel>
+						<text>非法印制、倒卖、虚开、代开增值税发票六名犯罪分子被处决</text>
+						<navStartPage>67</navStartPage>
+						<navEndPage>67</navEndPage>
+						<bookStartPage>67</bookStartPage>
+						<bookEndPage>67</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#67"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-47" playOrder="47">
+					<navLabel>
+						<text>全国政协、中央统战部在京纪念包尔汉诞辰一百周年座谈会</text>
+						<navStartPage>68</navStartPage>
+						<navEndPage>68</navEndPage>
+						<bookStartPage>68</bookStartPage>
+						<bookEndPage>68</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#68"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-48" playOrder="48">
+					<navLabel>
+						<text>首都和厦门集会纪念陈嘉庚诞辰一百二十周年，李瑞环、荣毅仁和李岚清分别出席</text>
+						<navStartPage>68</navStartPage>
+						<navEndPage>68</navEndPage>
+						<bookStartPage>68</bookStartPage>
+						<bookEndPage>68</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#68"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-49" playOrder="49">
+					<navLabel>
+						<text>李岚清在陈嘉庚先生诞辰一百二十周年纪念大会上的讲话</text>
+						<navStartPage>69</navStartPage>
+						<navEndPage>70</navEndPage>
+						<bookStartPage>69</bookStartPage>
+						<bookEndPage>70</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#69"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-50" playOrder="50">
+					<navLabel>
+						<text>香港特别行政区筹委会预委会政务小组第十一次、经济小组第十次、法律小组第七次、文化小组第六次会议在京举行</text>
+						<navStartPage>71</navStartPage>
+						<navEndPage>72</navEndPage>
+						<bookStartPage>71</bookStartPage>
+						<bookEndPage>72</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#71"/>
+				</navPoint>
+			</navPoint>
+			<navPoint catalog="content" class="body" level="section" id="新华月报1994年10期总第600期-51" playOrder="51">
+				<navLabel>
+					<text>经济</text>
+					<navStartPage>72</navStartPage>
+					<navEndPage>94</navEndPage>
+					<bookStartPage>72</bookStartPage>
+					<bookEndPage>94</bookEndPage>
+				</navLabel>
+				<content src="新华月报1994年10期总第600期.pdf#72"/>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-52" playOrder="52">
+					<navLabel>
+						<text>国务院就切实做好今年棉花购销工作发出通知，决定当前不放开棉花经营及棉花市场和价格</text>
+						<navStartPage>72</navStartPage>
+						<navEndPage>72</navEndPage>
+						<bookStartPage>72</bookStartPage>
+						<bookEndPage>72</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#72"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-53" playOrder="53">
+					<navLabel>
+						<text>李岚清在全国棉花收购工作电话会议上要求坚决管好棉花市场，全面完成收购任务</text>
+						<navStartPage>73</navStartPage>
+						<navEndPage>73</navEndPage>
+						<bookStartPage>73</bookStartPage>
+						<bookEndPage>73</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#73"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-54" playOrder="54">
+					<navLabel>
+						<text>管好棉花市场　打击非法行为——访国家工商局副局长曹天玷</text>
+						<navStartPage>74</navStartPage>
+						<navEndPage>74</navEndPage>
+						<bookStartPage>74</bookStartPage>
+						<bookEndPage>74</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#74"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-55" playOrder="55">
+					<navLabel>
+						<text>国务院发出通知要求抓紧抓好秋季粮油收购</text>
+						<navStartPage>75</navStartPage>
+						<navEndPage>75</navEndPage>
+						<bookStartPage>75</bookStartPage>
+						<bookEndPage>75</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#75"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-56" playOrder="56">
+					<navLabel>
+						<text>国务院办公厅转发证监会文件，决定暂停粳米、菜籽油期货交易</text>
+						<navStartPage>75</navStartPage>
+						<navEndPage>75</navEndPage>
+						<bookStartPage>75</bookStartPage>
+						<bookEndPage>75</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#75"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-57" playOrder="57">
+					<navLabel>
+						<text>农业部在京召开首次全国农村政策法规工作会议</text>
+						<navStartPage>76</navStartPage>
+						<navEndPage>76</navEndPage>
+						<bookStartPage>76</bookStartPage>
+						<bookEndPage>76</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#76"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-58" playOrder="58">
+					<navLabel>
+						<text>经济发达首先要农业发达</text>
+						<navStartPage>77</navStartPage>
+						<navEndPage>77</navEndPage>
+						<bookStartPage>77</bookStartPage>
+						<bookEndPage>77</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#77"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-59" playOrder="59">
+					<navLabel>
+						<text>国务院发出通知要求各地搞好纺织工业生产和调整工作</text>
+						<navStartPage>78</navStartPage>
+						<navEndPage>78</navEndPage>
+						<bookStartPage>78</bookStartPage>
+						<bookEndPage>78</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#78"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-60" playOrder="60">
+					<navLabel>
+						<text>中国社会发展成就展在北京举行，江泽民、李鹏、乔石、刘华清等领导同志先后观看</text>
+						<navStartPage>78</navStartPage>
+						<navEndPage>78</navEndPage>
+						<bookStartPage>78</bookStartPage>
+						<bookEndPage>78</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#78"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-61" playOrder="61">
+					<navLabel>
+						<text>全国社会发展工作会议在京举行，江泽民、李鹏，朱镕基等会见与会代表</text>
+						<navStartPage>79</navStartPage>
+						<navEndPage>79</navEndPage>
+						<bookStartPage>79</bookStartPage>
+						<bookEndPage>79</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#79"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-62" playOrder="62">
+					<navLabel>
+						<text>李鹏总理在辽宁考察时指出要集中力量搞好国有大中型企业</text>
+						<navStartPage>80</navStartPage>
+						<navEndPage>80</navEndPage>
+						<bookStartPage>80</bookStartPage>
+						<bookEndPage>80</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#80"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-63" playOrder="63">
+					<navLabel>
+						<text>李铁映在陕西考察时指出明年改革重点是建立现代企业制度，搞好综合配套改革</text>
+						<navStartPage>81</navStartPage>
+						<navEndPage>81</navEndPage>
+						<bookStartPage>81</bookStartPage>
+						<bookEndPage>81</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#81"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-64" playOrder="64">
+					<navLabel>
+						<text>关于建立现代企业制度的有关问题</text>
+						<navStartPage>82</navStartPage>
+						<navEndPage>85</navEndPage>
+						<bookStartPage>82</bookStartPage>
+						<bookEndPage>85</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#82"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-65" playOrder="65">
+					<navLabel>
+						<text>国务院办公厅转发财政部等部门的请示报告，要求各地抓紧清理企业欠税</text>
+						<navStartPage>86</navStartPage>
+						<navEndPage>86</navEndPage>
+						<bookStartPage>86</bookStartPage>
+						<bookEndPage>86</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#86"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-66" playOrder="66">
+					<navLabel>
+						<text>国务院批转中国人民银行意见，要求加强金融机构监管工作</text>
+						<navStartPage>87</navStartPage>
+						<navEndPage>87</navEndPage>
+						<bookStartPage>87</bookStartPage>
+						<bookEndPage>87</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#87"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-67" playOrder="67">
+					<navLabel>
+						<text>向绝对贫困宣战——国务委员、国务院扶贫开发领导小组组长陈俊生1994年10月16日在“国际消除贫困日”纪念活动报告会上的讲话</text>
+						<navStartPage>88</navStartPage>
+						<navEndPage>89</navEndPage>
+						<bookStartPage>88</bookStartPage>
+						<bookEndPage>89</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#88"/>
+					<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-68" playOrder="68">
+						<navLabel>
+							<text>资料：国际消除贫困日</text>
+							<navStartPage>90</navStartPage>
+							<navEndPage>90</navEndPage>
+							<bookStartPage>90</bookStartPage>
+							<bookEndPage>90</bookEndPage>
+						</navLabel>
+						<content src="新华月报1994年10期总第600期.pdf#90"/>
+					</navPoint>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-69" playOrder="69">
+					<navLabel>
+						<text>李瑞环在中国优秀民营企业家经验交流会上勉励优秀民营企业家为经济发展和社会进步作出新贡献</text>
+						<navStartPage>90</navStartPage>
+						<navEndPage>90</navEndPage>
+						<bookStartPage>90</bookStartPage>
+						<bookEndPage>90</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#90"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-70" playOrder="70">
+					<navLabel>
+						<text>李岚清在开发区外商投资研讨会上强调更加积极有效地利用外资</text>
+						<navStartPage>91</navStartPage>
+						<navEndPage>91</navEndPage>
+						<bookStartPage>91</bookStartPage>
+						<bookEndPage>91</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#91"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-71" playOrder="71">
+					<navLabel>
+						<text>中华人民共和国国务院令（第一六七号）</text>
+						<navStartPage>91</navStartPage>
+						<navEndPage>91</navEndPage>
+						<bookStartPage>91</bookStartPage>
+						<bookEndPage>91</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#91"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-72" playOrder="72">
+					<navLabel>
+						<text>自然保护区条例</text>
+						<navStartPage>92</navStartPage>
+						<navEndPage>95</navEndPage>
+						<bookStartPage>92</bookStartPage>
+						<bookEndPage>95</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#92"/>
+				</navPoint>
+			</navPoint>
+			<navPoint catalog="content" class="body" level="section" id="新华月报1994年10期总第600期-73" playOrder="73">
+				<navLabel>
+					<text>文化科学</text>
+					<navStartPage>95</navStartPage>
+					<navEndPage>113</navEndPage>
+					<bookStartPage>95</bookStartPage>
+					<bookEndPage>113</bookEndPage>
+				</navLabel>
+				<content src="新华月报1994年10期总第600期.pdf#95"/>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-74" playOrder="74">
+					<navLabel>
+						<text>中国运动员在广岛举行的第十二届亚运会上共获得一三七枚金牌，名列奖牌榜首</text>
+						<navStartPage>95</navStartPage>
+						<navEndPage>99</navEndPage>
+						<bookStartPage>95</bookStartPage>
+						<bookEndPage>99</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#95"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-75" playOrder="75">
+					<navLabel>
+						<text>第十二届亚运会奖牌榜</text>
+						<navStartPage>100</navStartPage>
+						<navEndPage>100</navEndPage>
+						<bookStartPage>100</bookStartPage>
+						<bookEndPage>100</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#100"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-76" playOrder="76">
+					<navLabel>
+						<text>弘扬夺金牌精神——祝贺我体育代表团在广岛亚运会创造优异成绩</text>
+						<navStartPage>101</navStartPage>
+						<navEndPage>101</navEndPage>
+						<bookStartPage>101</bookStartPage>
+						<bookEndPage>101</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#101"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-77" playOrder="77">
+					<navLabel>
+						<text>亚洲雄风激荡世界——写在第12届亚运会闭幕之际</text>
+						<navStartPage>101</navStartPage>
+						<navEndPage>102</navEndPage>
+						<bookStartPage>101</bookStartPage>
+						<bookEndPage>102</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#101"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-78" playOrder="78">
+					<navLabel>
+						<text>首都举行欢迎亚运健儿凯旋招待会，李鹏等党和国家领导人会见代表团全体成员，熊国鸣、莫慧兰分别当选最佳男女运动员</text>
+						<navStartPage>103</navStartPage>
+						<navEndPage>103</navEndPage>
+						<bookStartPage>103</bookStartPage>
+						<bookEndPage>103</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#103"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-79" playOrder="79">
+					<navLabel>
+						<text>李铁映在欢迎亚运健儿凯旋招待会上的讲话</text>
+						<navStartPage>104</navStartPage>
+						<navEndPage>104</navEndPage>
+						<bookStartPage>104</bookStartPage>
+						<bookEndPage>104</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#104"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-80" playOrder="80">
+					<navLabel>
+						<text>参加第十二届亚运会的中国体育代表团举行动员大会，李瑞环、李铁映亲切会见全体成员</text>
+						<navStartPage>105</navStartPage>
+						<navEndPage>106</navEndPage>
+						<bookStartPage>105</bookStartPage>
+						<bookEndPage>106</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#105"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-81" playOrder="81">
+					<navLabel>
+						<text>中国奥委会声明</text>
+						<navStartPage>107</navStartPage>
+						<navEndPage>107</navEndPage>
+						<bookStartPage>107</bookStartPage>
+						<bookEndPage>107</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#107"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-82" playOrder="82">
+					<navLabel>
+						<text>中国奥委会负责人重申严格按国际奥委会名古屋决议办事</text>
+						<navStartPage>107</navStartPage>
+						<navEndPage>107</navEndPage>
+						<bookStartPage>107</bookStartPage>
+						<bookEndPage>107</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#107"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-83" playOrder="83">
+					<navLabel>
+						<text>国务院发出紧急通知要求进一步加强药品管理工作</text>
+						<navStartPage>108</navStartPage>
+						<navEndPage>108</navEndPage>
+						<bookStartPage>108</bookStartPage>
+						<bookEndPage>108</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#108"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-84" playOrder="84">
+					<navLabel>
+						<text>孔子诞辰二五四五周年纪念与国际儒学研讨会暨国际儒学联合会成立大会在京举行</text>
+						<navStartPage>109</navStartPage>
+						<navEndPage>109</navEndPage>
+						<bookStartPage>109</bookStartPage>
+						<bookEndPage>109</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#109"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-85" playOrder="85">
+					<navLabel>
+						<text>新闻出版署署长于友先就如何促进我国出版业发展答记者问</text>
+						<navStartPage>110</navStartPage>
+						<navEndPage>110</navEndPage>
+						<bookStartPage>110</bookStartPage>
+						<bookEndPage>110</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#110"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-86" playOrder="86">
+					<navLabel>
+						<text>全国农村教育综合改革工作会议在唐山举行</text>
+						<navStartPage>111</navStartPage>
+						<navEndPage>112</navEndPage>
+						<bookStartPage>111</bookStartPage>
+						<bookEndPage>112</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#111"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-87" playOrder="87">
+					<navLabel>
+						<text>李岚清在全国教师住房建设经验交流会上强调把教师住房作为突出问题加以解决</text>
+						<navStartPage>113</navStartPage>
+						<navEndPage>114</navEndPage>
+						<bookStartPage>113</bookStartPage>
+						<bookEndPage>114</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#113"/>
+				</navPoint>
+			</navPoint>
+			<navPoint catalog="content" class="body" level="section" id="新华月报1994年10期总第600期-88" playOrder="88">
+				<navLabel>
+					<text>国内知名人士逝世消息</text>
+					<navStartPage>114</navStartPage>
+					<navEndPage>116</navEndPage>
+					<bookStartPage>114</bookStartPage>
+					<bookEndPage>116</bookEndPage>
+				</navLabel>
+				<content src="新华月报1994年10期总第600期.pdf#114"/>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-89" playOrder="89">
+					<navLabel>
+						<text>李士才同志在广州逝世</text>
+						<navStartPage>114</navStartPage>
+						<navEndPage>114</navEndPage>
+						<bookStartPage>114</bookStartPage>
+						<bookEndPage>114</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#114"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-90" playOrder="90">
+					<navLabel>
+						<text>吴振挺同志在洛阳逝世</text>
+						<navStartPage>114</navStartPage>
+						<navEndPage>114</navEndPage>
+						<bookStartPage>114</bookStartPage>
+						<bookEndPage>114</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#114"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-91" playOrder="91">
+					<navLabel>
+						<text>艾则佐夫·哈斯木同志在乌鲁木齐逝世</text>
+						<navStartPage>114</navStartPage>
+						<navEndPage>114</navEndPage>
+						<bookStartPage>114</bookStartPage>
+						<bookEndPage>114</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#114"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-92" playOrder="92">
+					<navLabel>
+						<text>高朗亭同志在合肥逝世</text>
+						<navStartPage>114</navStartPage>
+						<navEndPage>114</navEndPage>
+						<bookStartPage>114</bookStartPage>
+						<bookEndPage>114</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#114"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-93" playOrder="93">
+					<navLabel>
+						<text>王永明同志在哈尔滨逝世</text>
+						<navStartPage>114</navStartPage>
+						<navEndPage>114</navEndPage>
+						<bookStartPage>114</bookStartPage>
+						<bookEndPage>114</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#114"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-94" playOrder="94">
+					<navLabel>
+						<text>汪大漠同志在北京逝世</text>
+						<navStartPage>115</navStartPage>
+						<navEndPage>115</navEndPage>
+						<bookStartPage>115</bookStartPage>
+						<bookEndPage>115</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#115"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-95" playOrder="95">
+					<navLabel>
+						<text>王子纲同志在北京逝世</text>
+						<navStartPage>115</navStartPage>
+						<navEndPage>115</navEndPage>
+						<bookStartPage>115</bookStartPage>
+						<bookEndPage>115</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#115"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-96" playOrder="96">
+					<navLabel>
+						<text>吴有恒同志在广州逝世</text>
+						<navStartPage>115</navStartPage>
+						<navEndPage>115</navEndPage>
+						<bookStartPage>115</bookStartPage>
+						<bookEndPage>115</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#115"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-97" playOrder="97">
+					<navLabel>
+						<text>赵国臣同志在北京逝世</text>
+						<navStartPage>116</navStartPage>
+						<navEndPage>116</navEndPage>
+						<bookStartPage>116</bookStartPage>
+						<bookEndPage>116</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#116"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-98" playOrder="98">
+					<navLabel>
+						<text>王磊同志在北京逝世</text>
+						<navStartPage>116</navStartPage>
+						<navEndPage>116</navEndPage>
+						<bookStartPage>116</bookStartPage>
+						<bookEndPage>116</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#116"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-99" playOrder="99">
+					<navLabel>
+						<text>著名地质科学家岳希新在北京逝世</text>
+						<navStartPage>116</navStartPage>
+						<navEndPage>116</navEndPage>
+						<bookStartPage>116</bookStartPage>
+						<bookEndPage>116</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#116"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-100" playOrder="100">
+					<navLabel>
+						<text>著名昆曲艺术家洪雪飞因车祸在新疆遇难</text>
+						<navStartPage>116</navStartPage>
+						<navEndPage>116</navEndPage>
+						<bookStartPage>116</bookStartPage>
+						<bookEndPage>116</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#116"/>
+				</navPoint>
+			</navPoint>
+			<navPoint catalog="content" class="body" level="section" id="新华月报1994年10期总第600期-101" playOrder="101">
+				<navLabel>
+					<text>对外关系</text>
+					<navStartPage>117</navStartPage>
+					<navEndPage>154</navEndPage>
+					<bookStartPage>117</bookStartPage>
+					<bookEndPage>154</bookEndPage>
+				</navLabel>
+				<content src="新华月报1994年10期总第600期.pdf#117"/>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-102" playOrder="102">
+					<navLabel>
+						<text>塞拉利昂全国临时委员会主席、国家元首斯特拉瑟访问我国</text>
+						<navStartPage>117</navStartPage>
+						<navEndPage>117</navEndPage>
+						<bookStartPage>117</bookStartPage>
+						<bookEndPage>117</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#117"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-103" playOrder="103">
+					<navLabel>
+						<text>扎伊尔总统蒙博托访问我国</text>
+						<navStartPage>118</navStartPage>
+						<navEndPage>119</navEndPage>
+						<bookStartPage>118</bookStartPage>
+						<bookEndPage>119</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#118"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-104" playOrder="104">
+					<navLabel>
+						<text>乌兹别克斯坦总统卡里莫夫访问我国</text>
+						<navStartPage>120</navStartPage>
+						<navEndPage>120</navEndPage>
+						<bookStartPage>120</bookStartPage>
+						<bookEndPage>120</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#120"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-105" playOrder="105">
+					<navLabel>
+						<text>中国和乌兹别克斯坦关于相互关系的基本原则和发展与加深互利合作的声明</text>
+						<navStartPage>121</navStartPage>
+						<navEndPage>121</navEndPage>
+						<bookStartPage>121</bookStartPage>
+						<bookEndPage>121</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#121"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-106" playOrder="106">
+					<navLabel>
+						<text>捷克总理克劳斯访问我国</text>
+						<navStartPage>122</navStartPage>
+						<navEndPage>123</navEndPage>
+						<bookStartPage>122</bookStartPage>
+						<bookEndPage>123</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#122"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-107" playOrder="107">
+					<navLabel>
+						<text>李钟玉副主席率领朝鲜党政代表团访问我国</text>
+						<navStartPage>124</navStartPage>
+						<navEndPage>124</navEndPage>
+						<bookStartPage>124</bookStartPage>
+						<bookEndPage>124</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#124"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-108" playOrder="108">
+					<navLabel>
+						<text>玻利维亚副总统兼国会主席卡德纳斯一行访问我国</text>
+						<navStartPage>125</navStartPage>
+						<navEndPage>125</navEndPage>
+						<bookStartPage>125</bookStartPage>
+						<bookEndPage>125</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#125"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-109" playOrder="109">
+					<navLabel>
+						<text>印度副总统纳拉亚南访问我国</text>
+						<navStartPage>126</navStartPage>
+						<navEndPage>126</navEndPage>
+						<bookStartPage>126</bookStartPage>
+						<bookEndPage>126</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#126"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-110" playOrder="110">
+					<navLabel>
+						<text>越南副总理潘文凯访问我国</text>
+						<navStartPage>127</navStartPage>
+						<navEndPage>127</navEndPage>
+						<bookStartPage>127</bookStartPage>
+						<bookEndPage>127</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#127"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-111" playOrder="111">
+					<navLabel>
+						<text>马来西亚副总理兼财政部长安瓦尔访问我国</text>
+						<navStartPage>128</navStartPage>
+						<navEndPage>128</navEndPage>
+						<bookStartPage>128</bookStartPage>
+						<bookEndPage>128</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#128"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-112" playOrder="112">
+					<navLabel>
+						<text>爱尔兰副总理兼外长斯普林访问我国</text>
+						<navStartPage>129</navStartPage>
+						<navEndPage>129</navEndPage>
+						<bookStartPage>129</bookStartPage>
+						<bookEndPage>129</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#129"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-113" playOrder="113">
+					<navLabel>
+						<text>戈古阿泽议长率领格鲁吉亚议会代表团访问我国</text>
+						<navStartPage>129</navStartPage>
+						<navEndPage>129</navEndPage>
+						<bookStartPage>129</bookStartPage>
+						<bookEndPage>129</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#129"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-114" playOrder="114">
+					<navLabel>
+						<text>吉拉尼议长率领巴基斯坦国民议会代表团访问我国</text>
+						<navStartPage>130</navStartPage>
+						<navEndPage>130</navEndPage>
+						<bookStartPage>130</bookStartPage>
+						<bookEndPage>130</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#130"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-115" playOrder="115">
+					<navLabel>
+						<text>索鲁尔议长率领埃及人民议会代表团访问我国</text>
+						<navStartPage>131</navStartPage>
+						<navEndPage>131</navEndPage>
+						<bookStartPage>131</bookStartPage>
+						<bookEndPage>131</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#131"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-116" playOrder="116">
+					<navLabel>
+						<text>挪威王国外交大臣戈达尔访问我国</text>
+						<navStartPage>131</navStartPage>
+						<navEndPage>132</navEndPage>
+						<bookStartPage>131</bookStartPage>
+						<bookEndPage>132</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#131"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-117" playOrder="117">
+					<navLabel>
+						<text>玻利维亚外交和宗教事务部长阿拉尼瓦尔一行访问我国</text>
+						<navStartPage>133</navStartPage>
+						<navEndPage>133</navEndPage>
+						<bookStartPage>133</bookStartPage>
+						<bookEndPage>133</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#133"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-118" playOrder="118">
+					<navLabel>
+						<text>美国国防部长佩里访问我国，中美签署指导国防工业军转民联合委员会工作的原则声明</text>
+						<navStartPage>134</navStartPage>
+						<navEndPage>136</navEndPage>
+						<bookStartPage>134</bookStartPage>
+						<bookEndPage>136</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#134"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-119" playOrder="119">
+					<navLabel>
+						<text>钱其琛副总理兼外长访问美国，中美两国政府签署《关于停止生产用于核武器的裂变材料的联合声明》和《关于导弹扩散问题的联合声明》</text>
+						<navStartPage>137</navStartPage>
+						<navEndPage>138</navEndPage>
+						<bookStartPage>137</bookStartPage>
+						<bookEndPage>138</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#137"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-120" playOrder="120">
+					<navLabel>
+						<text>朱镕基副总理访问西班牙、埃及和希腊</text>
+						<navStartPage>139</navStartPage>
+						<navEndPage>140</navEndPage>
+						<bookStartPage>139</bookStartPage>
+						<bookEndPage>140</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#139"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-121" playOrder="121">
+					<navLabel>
+						<text>邹家华副总理访问以色列、葡萄牙和丹麦</text>
+						<navStartPage>141</navStartPage>
+						<navEndPage>142</navEndPage>
+						<bookStartPage>141</bookStartPage>
+						<bookEndPage>142</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#141"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-122" playOrder="122">
+					<navLabel>
+						<text>江泽民主席和李鹏总理分别会见参加第二届中信国际论坛的各国代表</text>
+						<navStartPage>143</navStartPage>
+						<navEndPage>144</navEndPage>
+						<bookStartPage>143</bookStartPage>
+						<bookEndPage>144</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#143"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-123" playOrder="123">
+					<navLabel>
+						<text>荣毅仁副主席和李鹏总理先后会见缅甸国家恢复法律与秩序委员会秘书长钦纽中将一行</text>
+						<navStartPage>145</navStartPage>
+						<navEndPage>145</navEndPage>
+						<bookStartPage>145</bookStartPage>
+						<bookEndPage>145</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#145"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-124" playOrder="124">
+					<navLabel>
+						<text>万里在南京大学中美文化研究中心接受美国霍普金斯大学授予的人文学荣誉博士学位并致答谢词</text>
+						<navStartPage>146</navStartPage>
+						<navEndPage>146</navEndPage>
+						<bookStartPage>146</bookStartPage>
+						<bookEndPage>146</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#146"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-125" playOrder="125">
+					<navLabel>
+						<text>中国政府与美国政府关于保护知识产权的谅解备忘录</text>
+						<navStartPage>147</navStartPage>
+						<navEndPage>148</navEndPage>
+						<bookStartPage>147</bookStartPage>
+						<bookEndPage>148</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#147"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-126" playOrder="126">
+					<navLabel>
+						<text>坚持中美知识产权谅解备忘录的基本原则</text>
+						<navStartPage>149</navStartPage>
+						<navEndPage>149</navEndPage>
+						<bookStartPage>149</bookStartPage>
+						<bookEndPage>149</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#149"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-127" playOrder="127">
+					<navLabel>
+						<text>中葡联合联络小组第二十一次会议在澳门举行</text>
+						<navStartPage>149</navStartPage>
+						<navEndPage>149</navEndPage>
+						<bookStartPage>149</bookStartPage>
+						<bookEndPage>149</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#149"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-128" playOrder="128">
+					<navLabel>
+						<text>二十一世纪人力资源开发与利用国际研讨会在北京举行并发表《北京宣言》呼吁把人才战略变成行动</text>
+						<navStartPage>150</navStartPage>
+						<navEndPage>150</navEndPage>
+						<bookStartPage>150</bookStartPage>
+						<bookEndPage>150</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#150"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-129" playOrder="129">
+					<navLabel>
+						<text>“’94环太平洋论坛会议”在北京举行，李鹏总理会见参加会议的外方代表</text>
+						<navStartPage>151</navStartPage>
+						<navEndPage>151</navEndPage>
+						<bookStartPage>151</bookStartPage>
+						<bookEndPage>151</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#151"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-130" playOrder="130">
+					<navLabel>
+						<text>外交部发言人在记者招待会上答记者问</text>
+						<navStartPage>152</navStartPage>
+						<navEndPage>153</navEndPage>
+						<bookStartPage>152</bookStartPage>
+						<bookEndPage>153</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#152"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-131" playOrder="131">
+					<navLabel>
+						<text>国务院港澳办发言人就港督彭定康发表的一九九四年施政报告的内容等问题发表谈话</text>
+						<navStartPage>154</navStartPage>
+						<navEndPage>155</navEndPage>
+						<bookStartPage>154</bookStartPage>
+						<bookEndPage>155</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#154"/>
+				</navPoint>
+			</navPoint>
+			<navPoint catalog="content" class="body" level="section" id="新华月报1994年10期总第600期-132" playOrder="132">
+				<navLabel>
+					<text>国际</text>
+					<navStartPage>155</navStartPage>
+					<navEndPage>168</navEndPage>
+					<bookStartPage>155</bookStartPage>
+					<bookEndPage>168</bookEndPage>
+				</navLabel>
+				<content src="新华月报1994年10期总第600期.pdf#155"/>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-133" playOrder="133">
+					<navLabel>
+						<text>中国国务院副总理兼外长钱其琛在第四十九届联大发表讲话阐述中国政府对当前国际形势和一系列重大国际问题的立场</text>
+						<navStartPage>155</navStartPage>
+						<navEndPage>156</navEndPage>
+						<bookStartPage>155</bookStartPage>
+						<bookEndPage>156</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#155"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-134" playOrder="134">
+					<navLabel>
+						<text>中国国务院副总理兼外长钱其琛就世界形势、联合国工作等问题接受中国驻联合国记者的采访</text>
+						<navStartPage>157</navStartPage>
+						<navEndPage>157</navEndPage>
+						<bookStartPage>157</bookStartPage>
+						<bookEndPage>157</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#157"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-135" playOrder="135">
+					<navLabel>
+						<text>中国代表王学贤、侯志通、杨燕怡、冯淬和陈望夏等分别在第四十九届联大和联大第一、二、三委员会会议上发言</text>
+						<navStartPage>158</navStartPage>
+						<navEndPage>160</navEndPage>
+						<bookStartPage>158</bookStartPage>
+						<bookEndPage>160</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#158"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-136" playOrder="136">
+					<navLabel>
+						<text>中国国务院副总理兼外长钱其琛在纽约美国对外关系委员会举行的午餐会上就世界形势、中美关系等问题发表演讲</text>
+						<navStartPage>161</navStartPage>
+						<navEndPage>161</navEndPage>
+						<bookStartPage>161</bookStartPage>
+						<bookEndPage>161</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#161"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-137" playOrder="137">
+					<navLabel>
+						<text>联合国安理会五常任理事国外长举行会谈并发表公报</text>
+						<navStartPage>162</navStartPage>
+						<navEndPage>162</navEndPage>
+						<bookStartPage>162</bookStartPage>
+						<bookEndPage>162</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#162"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-138" playOrder="138">
+					<navLabel>
+						<text>国际货币基金组织和世界银行一九九四年年会在马德里举行，国务院副总理兼中国人民银行行长朱镕基在会上发言</text>
+						<navStartPage>162</navStartPage>
+						<navEndPage>163</navEndPage>
+						<bookStartPage>162</bookStartPage>
+						<bookEndPage>163</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#162"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-139" playOrder="139">
+					<navLabel>
+						<text>亚太经济合作组织贸易部长会议在雅加达举行，中国代表团团长吴仪在会上阐述中国的立场和观点</text>
+						<navStartPage>164</navStartPage>
+						<navEndPage>164</navEndPage>
+						<bookStartPage>164</bookStartPage>
+						<bookEndPage>164</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#164"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-140" playOrder="140">
+					<navLabel>
+						<text>朝鲜和美国在日内瓦签署关于朝鲜核问题的框架协议，中国外交部发言人就朝美签署协议发表谈话</text>
+						<navStartPage>165</navStartPage>
+						<navEndPage>165</navEndPage>
+						<bookStartPage>165</bookStartPage>
+						<bookEndPage>165</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#165"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-141" playOrder="141">
+					<navLabel>
+						<text>约旦和以色列正式签署和平条约，钱其琛发表谈话说中国对约以和约的签署表示欢迎</text>
+						<navStartPage>166</navStartPage>
+						<navEndPage>167</navEndPage>
+						<bookStartPage>166</bookStartPage>
+						<bookEndPage>167</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#166"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-142" playOrder="142">
+					<navLabel>
+						<text>海地总统阿里斯蒂德面临的严峻挑战</text>
+						<navStartPage>168</navStartPage>
+						<navEndPage>168</navEndPage>
+						<bookStartPage>168</bookStartPage>
+						<bookEndPage>168</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#168"/>
+				</navPoint>
+				<navPoint catalog="content" class="body" level="subsection" id="新华月报1994年10期总第600期-143" playOrder="143">
+					<navLabel>
+						<text>贝劳共和国宣告独立</text>
+						<navStartPage>168</navStartPage>
+						<navEndPage>168</navEndPage>
+						<bookStartPage>168</bookStartPage>
+						<bookEndPage>168</bookEndPage>
+					</navLabel>
+					<content src="新华月报1994年10期总第600期.pdf#168"/>
+				</navPoint>
+			</navPoint>
+			<navPoint catalog="content" class="body" level="section" id="新华月报1994年10期总第600期-144" playOrder="144">
+				<navLabel>
+					<text>国内外要闻摘编</text>
+					<navStartPage>169</navStartPage>
+					<navEndPage>185</navEndPage>
+					<bookStartPage>169</bookStartPage>
+					<bookEndPage>185</bookEndPage>
+				</navLabel>
+				<content src="新华月报1994年10期总第600期.pdf#169"/>
+			</navPoint>
+			<navPoint catalog="content" class="body" level="section" id="新华月报1994年10期总第600期-145" playOrder="145">
+				<navLabel>
+					<text>国内外大事记</text>
+					<navStartPage>186</navStartPage>
+					<navEndPage>197</navEndPage>
+					<bookStartPage>186</bookStartPage>
+					<bookEndPage>197</bookEndPage>
+				</navLabel>
+				<content src="新华月报1994年10期总第600期.pdf#186"/>
+			</navPoint>
+		</navPoint>
+	</navMap>
+</ncx>

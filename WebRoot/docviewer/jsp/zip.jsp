@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ include file="/appframe/common.jsp"%>
+<html>
+<head>
+<title>ZIP在线预览</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+<script type="text/javascript" src="${path}/appframe/plugin/zTree/js/jquery.ztree.all-3.5.min.js"></script>
+<link rel="stylesheet" href="${path}/appframe/plugin/zTree/css/zTreeStyle/zTreeStyle.css" type="text/css" />
+<script type="text/javascript" src="${path}/appframe/plugin/jqueryJson/jquery.json-2.4.min.js"></script>
+<script type="text/javascript">
+//查询树形结构路径
+var treeNodeUrl = "${path}/docviewer/zipviewer.action";
+//初始化树
+var setting = {
+	view: {
+		dblClickExpand: false,
+        showLine: true,
+        selectedMulti: false
+	},
+	data: {
+		simpleData: {
+			enable: true
+		}
+	}
+};
+
+
+
+$(document).ready(function(){
+	var filePath = '<%=request.getParameter("filePath")%>'; //绝对路径
+	var fileType ='<%=request.getParameter("fileType")%>'; 
+	var id ='<%=request.getParameter("id")%>';
+	var param = "?filePath=" + filePath + "&id=" + id + "&fileType=" + fileType;
+	var zNodes = new Array();
+	$.ajax({               
+        type: "get",      
+        async:false,//同步
+        dataType: "json",               
+        url: encodeURI(treeNodeUrl + param),   
+        success: function(treeData) {
+        	if(treeData != null && isArray(treeData)){
+        		for(var i = 0; i < treeData.length; i++){
+        			var odata = {
+							name:treeData[i].name,
+							id:treeData[i].id,
+							fileUrl:treeData[i].fileUrl,
+							//style:treeData[i].css,
+							pId:treeData[i].pId
+						};
+        			zNodes.push(odata);
+        			var sons = treeData[i].sons;
+        			if(sons != null && sons != ""){
+        				zNodes = drawBranch(zNodes,sons);
+    				}
+        		}
+    		}else{
+    			$('#note').html("<font color=\"red\">&nbsp;错误提示：文件不存在。</font>");
+    		}
+		}
+	});
+	$.fn.zTree.init($("#tree"), setting, zNodes);
+	var h = 540;
+	$('#tree').height(h);
+	$("#tree").width(890);
+	$('#tree').height(h-30);
+	$("#note").width(890);
+	var treeObj = $.fn.zTree.getZTreeObj("tree");
+	treeObj.expandAll(true);
+});
+
+
+
+function drawBranch(zNodes, treeData){
+	for(var i = 0; i < treeData.length; i++){
+		var odata = {
+				name:treeData[i].name,
+				id:treeData[i].id,
+				fileUrl:treeData[i].fileUrl,
+				//style:treeData[i].css,
+				pId:treeData[i].pId
+			};
+		zNodes.push(odata);
+		var sons = treeData[i].sons;
+		if(sons != null && sons != ""){
+			zNodes = drawBranch(zNodes,sons);
+		}
+	}
+	return zNodes;
+}	
+
+
+
+//单击事件
+function beforeClickZtree(treeId, treeNode){
+	//alert(treeNode.id + ","+ treeNode.name +  ","+treeNode.fileUrl);
+	//var url = treeNode.fileUrl;
+	var filePath=treeNode.path;
+	var objectId=treeNode.objectId;
+	if(filePath != null && filePath !=""){
+		var fileType = getFileExt(filePath);
+		if(isNotNull(fileType) && fileType != "/"){ 
+			readFileOnline(filePath,objectId,"","","2");  //相对路径
+		}
+		
+	}
+}
+
+
+</script>
+</head>
+<body id="errorHtml">
+	<div class="by-main-page-body-side" id="byMainPageBodySide">
+		<div id="note"><font color="red">&nbsp;小提示：ZIP文件只支持预览文件列表</font></div>
+		<ul id="tree" class="ztree" style="overflow: auto;"></ul>
+	</div>
+</body>
+</html>
+

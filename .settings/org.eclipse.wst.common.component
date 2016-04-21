@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="bsrcm">
+        <wb-resource deploy-path="/" source-path="/WebRoot"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/System"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Common"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Demo"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Framework"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Jbpm"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Resource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/conf"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/TaskProcess"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Article"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Journal"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Mark"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/ResearchPlat"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Crawler"/>
+        <property name="context-root" value="bsrcm"/>
+        <property name="java-output-path" value="/bsrcm/build/classes"/>
+    </wb-module>
+</project-modules>

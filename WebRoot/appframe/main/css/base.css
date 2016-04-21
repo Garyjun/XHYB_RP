@@ -1,0 +1,95 @@
+/*
+copyright:2013/1/23
+author:nc
+*/
+@charset "utf-8";
+/*CSS reset*/
+/*padding,margin设置*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td
+	{
+	margin: 0;
+	padding: 0
+}
+/*边框*/ 
+fieldset,img {
+	border: 0;
+}
+/*font-variant设置字母大小写*/
+abbr,acronym {
+	border: 0;
+	font-variant: normal;
+}
+/*外边框*/
+:focus {
+	outline: 0;
+}
+/*字体样式(font style/weight/size/variant)*/
+address,caption,cite,code,dfn,th,var,optgroup {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+input,button,textarea,select,optgroup,option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+/*@purpose To enable resizing for IE */
+/*ie6,7不支持inherit把字体重置*/
+input,button,textarea,select {
+	*font-size: 100%;
+}
+/*行高*/
+body {
+	line-height: 1.5;
+}
+/*列表样式*/
+ol,ul {
+	list-style: none;
+}
+/*表格样式*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption,th {
+	text-align: left;
+}
+/*上下标以及baseline*/
+sup,sub {
+	font-size: 10px;
+}
+/*插入和删除ins/del*/
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+/*引用元素的引号(有些浏览器会在blockquote/q的前后出现引号)*/
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+}
+/*链接（如果只定义a不够全面）*/
+:link,:visited,a,ins {
+	text-decoration: none;
+}
+
+button {
+	line-height: 1.231;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+}

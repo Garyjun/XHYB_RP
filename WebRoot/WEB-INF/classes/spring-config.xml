@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+       ">
+
+    <!-- 扫描注解Bean -->
+    <context:component-scan base-package="com">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+    
+	<!-- 使用Spring配置获取 resources.properties 文件 -->
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <!-- 获取多个配置文件时，配置就需要使用locations -->
+        <property name="locations">
+            <list>
+                <value>classpath:resources.properties</value>
+            </list>
+        </property>
+    </bean>
+
+ 
+    <!-- 国际化的消息资源文件 -->
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <!-- 在web环境中一定要定位到classpath 否则默认到当前web应用下找  -->
+                <value>classpath:messages</value>
+            </list>
+        </property>
+        <!-- 默认编码  UTF-8 -->
+        <property name="defaultEncoding" value="UTF-8"/>
+        <!-- 缓存 60秒 -->
+        <property name="cacheSeconds" value="60"/>
+    </bean>
+    
+	<!-- 数据源 -->
+  	<bean id="dataSource" class="org.logicalcobwebs.proxool.ProxoolDataSource">
+		<property name="alias" value="proxoolDataSource"/>
+		<property name="driver" value="${connection.driver_class}" />
+		<property name="driverUrl" value="${connection.url}" />
+		<property name="user" value="${connection.username}" />
+		<property name="password" value="${connection.password}" />
+		<property name="maximumConnectionCount" value="${proxool.maximum.connection.count}"/>
+		<property name="minimumConnectionCount" value="${proxool.minimum.connection.count}" />
+		<property name="statistics" value="${proxool.statistics}" />
+		<property name="simultaneousBuildThrottle" value="${proxool.simultaneous.build.throttle}"/>
+		<!-- 最大活动时间(超过此时间线程将被kill,默认为5分钟,配置为6个小时) -->
+        <property name="maximumActiveTime" value="${proxool.maximum.active.time}"/>
+	</bean>
+	
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource"><ref bean="dataSource"/></property>
+	</bean>
+	
+	<bean id="baseJdbcDao" class="com.brainsoon.common.dao.hibernate.BaseJdbcDao">
+		<property name="jdbcTemplate"><ref bean="jdbcTemplate"/></property>
+	</bean>
+	
+	<!-- sessionFactory -->
+  	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean" >
+    	<property name="dataSource" ref="dataSource"/>
+    	<property name="packagesToScan" value="com.brainsoon.**.model,com.brainsoon.**.po,com.brainsoon.**.entity" />
+    	<property name="mappingLocations">
+			<list>
+				<value>classpath:jbpm.execution.hbm.xml</value>
+				<value>classpath:jbpm.history.hbm.xml</value>
+				<value>classpath:jbpm.identity.hbm.xml</value>
+				<value>classpath:jbpm.repository.hbm.xml</value>
+				<value>classpath:jbpm.task.hbm.xml</value>
+		    </list>
+		</property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">${hibernate.dialect}</prop>
+                <prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+                <prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop>
+                <prop key="hibernate.format_sql">false</prop>
+                <prop key="hibernate.query.substitutions">${hibernate.query.substitutions}</prop>
+                <prop key="hibernate.default_batch_fetch_size">${hibernate.default_batch_fetch_size}</prop>
+                <prop key="hibernate.max_fetch_depth">${hibernate.max_fetch_depth}</prop>
+                <prop key="hibernate.generate_statistics">${hibernate.generate_statistics}</prop>
+                <prop key="hibernate.bytecode.use_reflection_optimizer">${hibernate.bytecode.use_reflection_optimizer}</prop>
+            </props>
+        </property>
+  	</bean>
+	
+    <!-- 开启AOP监听 只对当前配置文件有效 -->
+	<aop:aspectj-autoproxy expose-proxy="true"/>
+	
+	<!-- 
+	           开启注解事务 只对当前配置文件有效：
+		对@Transactional这个注解进行的驱动，这是基于注解的方式使用事务配置声明，这样在具体应用中可以指定对哪些方法使用事务。
+		再看你说的接口，Spring是面向接口编程的，Spring依赖注入是通过动态代理实现的，利用反射技术在运行时获得实例对象的一些信息 
+		如果没有接口，怎么生成代理对象呢？况且不用接口的话，还用spring注入干嘛？还不如直接在类中new了
+	-->
+  	<tx:annotation-driven transaction-manager="transactionManager"/>
+
+	<!-- 
+		  配置事务管理器:(这是作为公共使用的事务管理器Bean。这个会是事先配置好的，不需各个模块各自去配)
+		 spring31把HibernateDaoSupport去除，包括数据访问都不需要hibernatetemplate，
+		  这意味着dao需要改写，直接使用hibernate的session和query接口.
+		 Spring3.1及以上对hibernate的事务管理，不论是注解方式还是配置文件方式统一改为 
+	-->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+         <property name="dataSource" ref="dataSource" />
+    </bean>
+
+	 <!--
+	 	txAdvice:（声明性事务配置） 配置事务的传播特性:
+     -->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <!-- tx:attributes:标签所配置的是作为事务的方法的命名类型 -->
+        <tx:attributes>
+            <!-- 
+            	其中 如:'save*'的*为通配符，即代表以save为开头的所有方法，即表示符合此命名规则的方法作为一个事务。
+        		propagation="REQUIRED"代表支持当前事务，如果当前没有事务，就新建一个事务。这是最常见的选择 
+        		name			是				与事务属性关联的方法名。通配符（*）可以用来指定一批关联到相同的事务属性的方法。 如：'get*'、'handle*'、'on*Event'等等。
+				propagation		不	REQUIRED	事务传播行为
+				isolation		不	DEFAULT		事务隔离级别
+				timeout			不	-1			事务超时的时间（以秒为单位）
+				read-only		不	false		事务是否只读？
+				rollback-for	不				将被触发进行回滚的 Exception(s)；以逗号分开。 如：'com.foo.MyBusinessException,ServletException'
+				no-rollback-for	不	  			被触发进行回滚的 Exception(s)；以逗号分开。 如：'com.foo.MyBusinessException
+        	-->
+            <tx:method name="save*" propagation="REQUIRED"	 />
+            <tx:method name="add*" propagation="REQUIRED" />
+            <tx:method name="create*" propagation="REQUIRED" />
+            <tx:method name="insert*" propagation="REQUIRED" />
+            <tx:method name="update*" propagation="REQUIRED" />
+            <tx:method name="upd*" propagation="REQUIRED" />
+            <tx:method name="merge*" propagation="REQUIRED" />
+            <tx:method name="del*" propagation="REQUIRED" />
+            <tx:method name="remove*" propagation="REQUIRED" />
+            <tx:method name="put*" propagation="REQUIRED" />
+            <tx:method name="use*" propagation="REQUIRED"/>
+            <tx:method name="do*" propagation="REQUIRED"/>
+            <tx:method name="end*" propagation="REQUIRED"/>
+            <!--hibernate4必须配置为开启事务 否则 getCurrentSession()获取不到-->
+            <tx:method name="get*" propagation="REQUIRED" read-only="true" />
+            <tx:method name="count*" propagation="REQUIRED" read-only="true" />
+            <tx:method name="find*" propagation="REQUIRED" read-only="true" />
+            <tx:method name="list*" propagation="REQUIRED" read-only="true" />
+            <tx:method name="*" read-only="true" />
+        </tx:attributes>
+    </tx:advice>
+    
+    <!--  配置参与事务的类 -->
+    <aop:config expose-proxy="true">
+        <!-- 
+        	aop:pointcut:标签配置参与事务的类: 只对业务逻辑层实施事务，由于是在Service中进行数据库业务操作，配的应该是包含那些作为事务的方法的Service类
+        	详细说明：
+        	首先应该特别注意的是id的命名，同样由于每个模块都有自己事务切面，
+        	所以我觉得初步的命名规则因为 all+模块名+ServiceMethod。
+        	而且每个模块之间不同之处还在于以下一句： 
+        	expression="execution(* com.brainsoon..service..*.*(..))"
+       		其中第一个*代表通配：任意返回值类型，
+       		第二*代表通配:service下子包任意class，
+       		第三个*代表通配:包下任意class的任意方法，
+       		“（..）”代表通配:方法可以有0个或多个参数
+         -->
+        <aop:pointcut id="txPointcut" expression="execution(* com.brainsoon..service..*.*(..))" />
+        <!-- aop:advisor:就是把上面我们所配置的事务管理两部分属性整合起来作为整个事务管理 -->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"/>
+    </aop:config>
+    
+	<!-- 自定义异常处理器 -->
+	<bean id="exceptionResolver" class="com.brainsoon.common.exception.ExceptionHandler"/> 
+	
+</beans>

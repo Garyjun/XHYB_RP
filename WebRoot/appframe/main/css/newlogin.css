@@ -1,0 +1,163 @@
+@charset "UTF-8";
+body{
+	background:#C9C9C9;
+}
+.top{
+	background-image:url(../images/mt_info.png);
+	width:100%;
+	height:90%;	
+	position:absolute;
+}
+.left{
+
+}
+.right{
+	width:637px;
+	height:136px;
+	background-image:url(../images/right_info.png);
+	position:absolute;
+	right:30px;
+	bottom:0px;
+}
+/*登录框*/
+.login{
+	width:320px;
+	height:340px;
+	background-image:url(../images/login.png);
+	position:absolute;
+	right:200px;
+	top:127px;
+	z-index:10;
+}
+.login p{
+	font-family:微软雅黑;
+	margin-top:90px;
+	margin-left:95px;
+	color:#666666;
+	font-weight:blod;
+	font-size:18px
+}
+.admin{
+	width:200px;
+	height:35px;
+	margin-left:78px;
+	margin-top:25px;
+	border-style:none;
+	line-height:35px;
+	z-index:20;
+	font-size:14px;
+	color:#666666;
+	font-family:宋体;
+	padding-left:5px;
+	background-repeat:no-repeat;
+	background-color:#fff;
+}
+
+.admin:focus{
+    outline:none;
+    background-color:#fff;
+    box-shadow: 0 0 8px rgba(103, 166, 217, 1);
+ }
+   
+.passwd{
+	width:200px;
+	height:35px;
+	margin-left:78px;
+	margin-top:5px;
+	border-style:none;
+	line-height:35px;
+	z-index:20;
+	font-size:14px;
+	color:#666666;
+	font-family:宋体;
+	padding-left:5px;
+	background-repeat:no-repeat;
+	background-color:#fff;
+}
+
+.passwd:focus{
+    outline:none;
+    background-color:#fff;
+    box-shadow: 0 0 8px rgba(103, 166, 217, 1);
+ }
+ 
+ 
+input:-webkit-autofill{
+	-webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+input:focus{
+	outline:none;
+	background-color:#fff;
+	box-shadow: 0 0 8px rgba(103, 166, 217, 1);
+}
+
+
+.input-admin{
+	width:11px;
+	height:12px;
+	position:absolute;
+	z-index:20;
+	top:223px;
+	right:474px;
+	/* background-image:url(../images/admin.png); */
+}
+.input-passwd{
+	width:9px;
+	height:11px;
+	position:absolute;
+	z-index:20;
+	top:273px;
+	right:476px;
+	/* background-image:url(../images/passwd.png); */
+}
+
+
+.smtbtn:hover,
+.smtbtn:focus{
+	width:120px;
+	height:35px;
+	margin-top:30px;
+	margin-left:45px;
+	border:0px;
+   	background-image:url(../images/button.png);
+}
+.smt{
+	width:120px;
+	height:35px;
+	margin-top:30px;
+	margin-left:45px;
+	border:0px;
+    background-image:url(../images/button_over.png);
+}
+.remember_pass{
+	height:35px;
+	width:120px;
+	display:block;
+	margin-left:180px;
+	margin-top:-35px;
+	line-height:35px;
+}
+.remember_pass span{
+	margin-left:2px;
+	font-family:宋体;
+	font-size:12px;
+	color:#666666;
+}
+/*底部*/
+.bottom{
+	width:100%;
+	height:10%;
+	background:#ea7272;
+	position:absolute;
+	top:577px;
+}
+.bottom p{
+	width:600px;
+	text-align:center;
+	padding-top:15px;
+	font-size:12px;
+	font-family:宋体;
+	color:#14223c;
+	margin:0px auto;
+}

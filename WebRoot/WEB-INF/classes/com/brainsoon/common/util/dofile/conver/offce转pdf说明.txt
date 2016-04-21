@@ -1,0 +1,30 @@
+在Windows平台：
+
+Step1: 安装 OpenOffice (最新版： \\10.130.29.21\share\tools\OOo_3.2.0_Win32Intel_install_zh-CN.exe)
+
+Step2: 启动 OpenOffice 服务 
+(默认端口为：8100，如需要修改请到: ../conf/webapp.properties 中修改 'openOfficePort' 参数)
+
+1) 打开命令行窗口（cmd），进入安装目录
+	如：cd C:\Program Files\OpenOffice.org 4\program (本机的安装目录)
+2) 执行如下命令
+	soffice -headless -accept="socket,host=127.0.0.1,port=8100;urp;" -nofirststartwizard
+
+Step3: 测试如下程序，在相应的目录找到相应的pdf即成功
+
+	public static void main(String[] args) {
+		String officePath = "D:/xxx/yyy/文档/test.docx";
+		String targetPdfPath = "D:/xxx/yyy/文档/test.pdf";
+		try {
+			com.brainsoon.common.util.dofile.conver.DocToPdfTool.convertToPdf(officePath, targetPdfPath);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
+问题:
+1.如果遇到 open office 格式不能转换的，例如：*.STW, *.SXD, *.ODF 等，在转换时指定： mime-type
+
+

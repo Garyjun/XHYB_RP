@@ -1,0 +1,31 @@
+{
+    "totalCount": 100,
+    "items": [
+     {
+        "username":"jyj1",
+        "email":"jyjmail@126.com"
+        
+    },
+     {
+        "username":"djs1",
+        "email":"djs@126.com"
+    } , {
+        "username":"jyj2",
+        "email":"jyjmail@126.com"
+        
+    },
+     {
+        "username":"djs2",
+        "email":"djs@126.com"
+    } , {
+        "username":"jyj3",
+        "email":"jyjmail@126.com"
+        
+    },
+     {
+        "username":"djs4",
+        "email":"djs@126.com"
+    } 
+   ]
+}      
+      

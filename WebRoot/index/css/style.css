@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+/* 区域底色设置 */
+
+body>.ui-layout-north {
+	background: #DE4a4a;
+}
+
+/*
+ *	GLOBAL LAYOUT STYLES
+ */
+.ui-layout-content {
+	overflow: auto;           /* add scrolling to content-divs (panel-wrappers) */
+	border-top: 0 !important; /* tab-buttons above this DIV already has a border-bottom */
+}
+
+/*
+ *	TAB-THEME ADJUSTMENTS
+ */
+.ui-tabs-nav li {
+	white-space: nowrap;
+}
+
+.ui-tabs-nav li a {
+	font-size: 1em !important;
+	padding: 4px 1.5ex 3px !important;
+}
+
+.ui-tabs-panel {
+	font-size: 1em !important;
+	/*padding: 0 1em !important;*/
+}
+
+/*
+ *	WEST-PANE TABS
+ *
+ *	These tabs 'fill' the pane,
+ *	so the pane-border acts as the tab-border
+ */
+.ui-layout-pane-center {
+	padding: 0;
+	overflow: hidden;
+}
+
+.ui-layout-pane-center .ui-tabs-nav {
+	/* don't need border or rounded corners - tabs 'fill' the pane */
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	padding-bottom: 0 !important;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+td.details-control {
+    background: url('details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('details_close.png') no-repeat center center;
+}

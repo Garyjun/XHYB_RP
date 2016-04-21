@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config product="XHYB">
+	<SQLDBConnections>
+		<Connection type="H2" name="XHYB" driver="org.h2.Driver" url="jdbc:h2:XHYB;AUTO_SERVER=TRUE" user="sa" pwd=""/>
+		<Connection type="H2" name="XHYB_Base" driver="org.h2.Driver" url="jdbc:h2:tcp://localhost/../XHYB_Base" user="sa" pwd=""/>
+		<Connection type="H2" name="XHYB_20160304" driver="org.h2.Driver" url="jdbc:h2:XHYB_20160304;AUTO_SERVER=TRUE" user="sa" pwd=""/>
+		<Connection type="MySQL" name="XHYB" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://10.130.29.29:3306/XHYB?useUnicode=true&amp;characterEncoding=UTF-8" user="root" pwd="mysql"/>
+		<Connection type="MySQL" name="XHYB_Reload" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://10.130.29.29:3306/XHYB_RELOAD?useUnicode=true&amp;characterEncoding=UTF-8" user="root" pwd="mysql"/>
+		<Connection type="MySQL" name="XHYB_20160304" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://10.130.29.29:3306/XHYB_20160304?useUnicode=true&amp;characterEncoding=UTF-8" user="root" pwd="mysql"/>
+		<Connection type="MySQL" name="CLC_temp" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://10.130.29.13:3306/bsrcm_xhyb?useUnicode=true&amp;characterEncoding=UTF-8" user="root" pwd="mysql"/>
+		<UsingConnection type="MySQL" name="XHYB_20160304"/>
+	</SQLDBConnections>
+	<InitDBSQL>
+		<SQLFile dbType="H2" phase="Base" file="SQL/SQL_H2_BaseTables.xml"/>
+		<SQLFile dbType="H2" phase="Note" file="SQL/SQL_H2_NoteTables.xml"/>
+		<SQLFile dbType="H2" phase="OR" file="SQL/SQL_H2_ORTables_Batch1.xml" batch="1"/>
+		<SQLFile dbType="H2" phase="SR" file="SQL/SQL_H2_SRTables.xml"/>
+		<SQLFile dbType="MySQL" phase="Base" file="SQL/SQL_MySQL_BaseTables.xml"/>
+		<SQLFile dbType="MySQL" phase="Note" file="SQL/SQL_MySQL_NoteTables.xml"/>
+		<SQLFile dbType="MySQL" phase="OR" file="SQL/SQL_MySQL_ORTables_Batch1.xml" batch="1"/>
+		<SQLFile dbType="MySQL" phase="SR" file="SQL/SQL_MySQL_SRTables.xml"/>
+	</InitDBSQL>
+	<URL>
+		<ServiceRoot>http://www.xinhuayuebao.net/
+		</ServiceRoot>
+		<ShowJnlIssueContent>showcontent.php?resouece_type=JnlIssue@id=
+		</ShowJnlIssueContent>
+	</URL>
+	<SQLDBInitiateStatements>
+	</SQLDBInitiateStatements>
+	<CLC path="baseData/CLC.txt"/>
+</config>

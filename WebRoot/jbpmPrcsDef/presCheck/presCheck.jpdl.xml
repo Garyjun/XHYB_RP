@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 应用资源 流程定义 -->
+<process name="presCheck" xmlns="http://jbpm.org/4.4/jpdl">
+	<swimlane name="WF_presCheck" candidate-users="WF_presCheck" />
+	<swimlane name="WF_presModify" candidate-users="WF_presModify" />
+   <start g="279,44,48,48" name="start1">
+      <transition g="-57,-13" name="草稿-提交" to="资源一审"/>
+   </start>
+   <task form="/res/wf/gotoCheck.action?objectId=${bizId};and;libType=3" g="256,150,92,52" name="资源一审" swimlane="WF_presCheck">
+      <transition g="-33,-13" name="通过" to="资源二审"/>
+      <transition g="443,174;443,109:5,-14" name="驳回" to="资源编辑"/>
+   </task>
+   <task form="/res/wf/gotoCheck.action?objectId=${bizId};and;libType=3" g="253,298,92,52" name="资源二审" swimlane="WF_presCheck">
+      <transition g="-32,-9" name="通过" to="end1"/>
+      <transition g="795,321;794,108:-29,-8" name="驳回" to="资源编辑"/>
+   </task>
+   <task form="/res/wf/gotoEdit.action?objectId=${bizId};and;libType=3" g="523,84,92,52" name="资源编辑" swimlane="WF_presModify">
+      <transition g="571,171;571,215;439,216:-69,-22" name="提交" to="资源一审"/>
+   </task>
+   <end g="276,420,48,48" name="end1"/>
+</process>
